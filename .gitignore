@@ -1,0 +1,12 @@
+# LaTeX-specific ignores
+*.aux
+*.log
+*.gz
+*.pdf
+
+# Other common ignores
+.DS_Store
+Thumbs.db
+
+# Exclude build directories
+/build/
