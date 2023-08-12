@@ -3,6 +3,11 @@
 *.log
 *.gz
 *.pdf
+*.fls
+*.xdv
+*.fdb_latexmk
+*.out
+*.toc
 
 # Other common ignores
 .DS_Store
