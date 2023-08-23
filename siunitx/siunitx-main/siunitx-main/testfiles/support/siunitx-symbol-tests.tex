@@ -1,0 +1,78 @@
+\ExplSyntaxOn
+\OMIT
+
+\cs_set_protected:Npn \testnumber #1
+  {
+    \hbox_set:Nn \l_tmpa_box { \num {#1} }
+    \box_show:N \l_tmpa_box
+    \hbox_set:Nn \l_tmpa_box { $ \num {#1} $ }
+    \box_show:N \l_tmpa_box
+    \group_begin:
+      \keys_set:nn { siunitx } { mode = text }
+      \hbox_set:Nn \l_tmpa_box { \num {#1} }
+      \box_show:N \l_tmpa_box
+      \hbox_set:Nn \l_tmpa_box { $ \num {#1} $ }
+      \box_show:N \l_tmpa_box
+    \group_end:
+  }
+
+\cs_set_protected:Npn \testunit #1
+  {
+    \testunitauxi {#1}
+    \group_begin:
+      \keys_set:nn { siunitx } { parse-units = false }
+      \testunitauxi {#1}
+    \group_end:
+  }
+
+\cs_set_protected:Npn \testunitauxi #1
+  {
+    \testunitauxii {#1}
+    \group_begin:
+      \keys_set:nn { siunitx } { mode = text }
+      \testunitauxii {#1}
+    \group_end:
+  }
+\cs_set_protected:Npn \testunitauxii #1
+  {
+    \hbox_set:Nn \l_tmpa_box { \unit {#1} }
+    \box_show:N \l_tmpa_box
+    \hbox_set:Nn \l_tmpa_box { $ \unit {#1} $ }
+    \box_show:N \l_tmpa_box
+  }
+
+% Set up math fonts
+\hbox_set:Nn \l_tmpa_box { $ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\TIMO
+\ExplSyntaxOff
+
+\TEST{Typesetting degree}
+  {
+    \testunit{\degree}
+  }
+
+\TEST{Typesetting ohm}
+  {
+    \testunit{\ohm}
+  }
+
+\TEST{Typesetting micro}
+  {
+    \testunit{\micro\metre}
+  }
+
+\TEST{Typesetting times}
+  {
+    \testnumber{1.23e45}
+    \sisetup
+      {
+        reset-text-family = false,
+        reset-text-series = false,
+        reset-text-shape  = false,
+        text-family-to-math = true,
+        text-series-to-math = true,
+        mode = match
+      }
+    {\ttfamily\testnumber{1.23e45}}
+  }

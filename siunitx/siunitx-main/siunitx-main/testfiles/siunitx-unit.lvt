@@ -1,0 +1,692 @@
+\input{regression-test}
+
+\RequirePackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\RequirePackage{siunitx}
+
+\START
+
+\ExplSyntaxOn
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \siunitx_unit_format:nN {#1} \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+\TIMO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\OMIT
+  \char_set_catcode_active:N \~
+  \char_set_active_eq:NN _ \scan_stop:
+  \cs_set_eq:NN ~ \c_space_tl
+  \tl_set:Nn \l_tmpb_tl { J ~ mol ^ { -1 } ~ K  ^ { -1 } }
+  \char_set_catcode_space:N \~
+  \tl_gset:Nx \g_tmpa_tl
+    { J . mol \token_to_str:N ^ { -1 } . K  \token_to_str:N ^ { -1 } }
+  \tl_gset:Nx \g_tmpb_tl { kg \token_to_str:N _ { polymer } }
+  \tl_new:N \l_tmpc_tl
+  \tl_set:Nx \l_tmpc_tl { kg \char_generate:nn { `\_ } { 8 } { polymer } }
+  \tl_new:N \l_tmpd_tl
+  \tl_set:Nx \l_tmpd_tl
+    { 
+      J. mol ^ { -1 } / 
+        K \char_generate:nn { `\_ } { 8 } { a } ^ { 2 } . 
+          K ^ { -1 } \char_generate:nn { `\_ } { 13 } { b }
+    }
+\TIMO
+
+\TEST { Basic~unit~formatting }
+  {
+    \siunitx_unit_format:nN { \joule \per \mole \per \kelvin } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { J . mol ^ { -1 } . K  ^ { -1 } } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \exp_args:NV \siunitx_unit_format:nN \l_tmpb_tl \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \exp_args:NV \siunitx_unit_format:nN \g_tmpa_tl \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { \joule . mol ^ { -1 } . K  ^ { -1 } } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { m \squared } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { \square m } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \exp_args:NV \siunitx_unit_format:nN \g_tmpb_tl \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \exp_args:NV \siunitx_unit_format:nN \l_tmpc_tl \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \exp_args:NV \siunitx_unit_format:nN \l_tmpd_tl \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { \text { \ensuremath { a } } } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { \second { } } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { m ~ \per  s ^ { 2 } } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format:nN { \frac { kg } { m^{2} } } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+
+\TEST { Unit~formatting~with~prefix~extraction }
+  {
+    \siunitx_unit_format_extract_prefixes:nNN { \joule \per \mole \per \kelvin }
+      \l_tmpa_tl \l_tmpa_fp
+    \tl_show:N \l_tmpa_tl
+    \fp_show:N \l_tmpa_fp
+    \siunitx_unit_format_extract_prefixes:nNN { \kilo \metre }
+      \l_tmpa_tl \l_tmpa_fp
+    \tl_show:N \l_tmpa_tl
+    \fp_show:N \l_tmpa_fp
+    \siunitx_unit_format_extract_prefixes:nNN { \kilo \metre \per \kilo \gram }
+      \l_tmpa_tl \l_tmpa_fp
+    \tl_show:N \l_tmpa_tl
+    \fp_show:N \l_tmpa_fp
+    \siunitx_unit_format_extract_prefixes:nNN { \kilo \metre \per \second \per \micro \ampere }
+      \l_tmpa_tl \l_tmpa_fp
+    \tl_show:N \l_tmpa_tl
+    \fp_show:N \l_tmpa_fp
+    \siunitx_unit_format_extract_prefixes:nNN { \square \kilo \metre }
+      \l_tmpa_tl \l_tmpa_fp
+    \tl_show:N \l_tmpa_tl
+    \fp_show:N \l_tmpa_fp
+    \siunitx_unit_format_extract_prefixes:nNN { \kilo \metre \tothe { 0.5 } }
+      \l_tmpa_tl \l_tmpa_fp
+    \tl_show:N \l_tmpa_tl
+    \fp_show:N \l_tmpa_fp
+  }
+
+\TEST { Unit~formatting~with~exponent~combination }
+  {
+    \siunitx_unit_format_combine_exponent:nnN { \metre } { 3 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_combine_exponent:nnN { \kilo \metre } { 3 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_combine_exponent:nnN { \milli \metre } { 3 }
+      \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_combine_exponent:nnN { \metre \squared } { 6 }
+      \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_combine_exponent:nnN { \per \metre } { 3 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_combine_exponent:nnN { \gram \per \milli \mole }
+      { 3 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+
+\TEST { Unit~formatting~with~multiplication }
+  {
+    \siunitx_unit_format_multiply:nnN { \metre } { 3 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_multiply:nnN { \metre \squared } { 2 }
+      \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_multiply:nnN { \per \metre } { 3 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+    \siunitx_unit_format_multiply:nnN { \gram \per \milli \mole }
+      { 3 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Creating~units }
+  {
+    \siunitx_declare_unit:Nn \molar { M }
+    \test:n { \molar }
+    \siunitx_declare_unit:Nn \molar { \textsc { M } }
+    \test:n { \molar }
+  }
+
+\TEST { Creating~prefixes }
+  {
+    \siunitx_declare_prefix:Nn \myprefix { Y }
+    \test:n { \myprefix \metre }
+    \test:n { \per \myprefix \metre }
+    \siunitx_declare_prefix:Nnn \myprefix { 11 } { X }
+    \test:n { \myprefix \metre }
+    \test:n { \per \myprefix \metre }
+  }
+
+\TEST { Creating~powers }
+  {
+    \siunitx_declare_power:NNn \quartic \fourthed { 4 }
+    \test:n { \quartic \metre }
+    \test:n { \per \quartic \metre }
+    \test:n { \metre \fourthed }
+    \test:n { \per \metre \fourthed }
+  }
+
+\TEST { Creating~qualifiers }
+  {
+    \siunitx_declare_qualifier:Nn \polymer { polymer }
+    \test:n { \mole \of { catalyst } \per \gram \polymer }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Base~units }
+  {
+    \clist_map_inline:nn
+      {
+        \kilogram ,
+        \metre    ,
+        \meter    ,
+        \mole     ,
+        \kelvin   ,
+        \candela  ,
+        \second   ,
+        \ampere
+      }
+      {
+        \test:n {#1}
+      }
+  }
+
+\TEST { Gram }
+  {
+    \clist_map_inline:nn
+      {
+        \gram
+      }
+      {
+        \test:n {#1}
+      }
+  }
+
+\TEST { Prefixes~(using~metre~as~unit) }
+  {
+    \clist_map_inline:nn
+      {
+        \quecto ,
+        \ronto  ,
+        \yocto  ,
+        \zepto  ,
+        \atto   ,
+        \femto  ,
+        \pico   ,
+        \nano   ,
+        \micro  ,
+        \milli  ,
+        \centi  ,
+        \deci   ,
+        \deca   ,
+        \deka   ,
+        \hecto  ,
+        \kilo   ,
+        \mega   ,
+        \giga   ,
+        \tera   ,
+        \peta   ,
+        \exa    ,
+        \zetta  ,
+        \yotta  ,
+        \ronna  ,
+        \quetta
+      }
+      {
+        \test:n { #1 \metre }
+      }
+  }
+
+\TEST { Defined~units }
+  {
+    \clist_map_inline:nn
+      {
+        \becquerel     ,
+        \degreeCelsius ,
+        \coulomb       ,
+        \farad         ,
+        \gray          ,
+        \hertz         ,
+        \henry         ,
+        \joule         ,
+        \katal         ,
+        \lumen         ,
+        \lux           ,
+        \newton        ,
+        \ohm           ,
+        \pascal        ,
+        \radian        ,
+        \siemens       ,
+        \sievert       ,
+        \steradian     ,
+        \tesla         ,
+        \volt          ,
+        \watt          ,
+        \weber
+      }
+      {
+        \test:n {#1}
+      }
+  }
+
+\TEST { Accepted~units }
+  {
+    \clist_map_inline:nn
+      {
+        \astronomicalunit ,
+        \bel              ,
+        \dalton           ,
+        \day              ,
+        \decibel          ,
+        \electronvolt     ,
+        \hectare          ,
+        \hour             ,
+        \litre            ,
+        \liter            ,
+        \neper            ,
+        \minute           ,
+        \tonne
+      }
+      {
+        \test:n {#1}
+      }
+  }
+
+\TEST { Units~of~plane~angles }
+  {
+    \clist_map_inline:nn
+      {
+        \arcminute ,
+        \arcsecond ,
+        \degree
+      }
+      {
+        \test:n {#1}
+      }
+  }
+
+\TEST { Percent }
+  {
+    \test:n { \percent }
+  }
+
+\TEST { Pre-defined~powers~of~units }
+  {
+    \clist_map_inline:nn
+      {
+        \square ,
+        \cubic
+      }
+      {
+        \test:n { #1 \metre }
+      }
+    \clist_map_inline:nn
+      {
+        \squared ,
+        \cubed
+      }
+      {
+        \test:n { \metre #1 }
+      }
+  }
+
+\TEST { Reciprocal~units }
+  {
+    \clist_map_inline:nn
+      {
+        \per \metre                      ,
+        \metre \per \second              ,
+        \per \square \metre              ,
+        \per \metre \squared             ,
+        \joule \per \mole \per \kelvin   ,
+        \per \metre \second \per \ampere
+      }
+      {
+        \test:n { #1 }
+      }
+  }
+
+\TEST { Arbitrary~unit~powers }
+  {
+    \clist_map_inline:nn
+      {
+        \raiseto { 4 }   \metre      ,
+        \raiseto { 3.5 } \metre      ,
+        \per \raiseto { 4 }   \metre ,
+        \per \raiseto { 3.5 } \metre ,
+        \metre \tothe { 4 }          ,
+        \metre \tothe { 3.5 }        ,
+        \metre \tothe { -2 }         ,
+        \per \metre \tothe { 4 }     ,
+        \per \metre \tothe { 3.5 }   ,
+        \per \metre \tothe { -2 }
+      }
+      {
+        \test:n { #1 }
+      }
+  }
+
+\TEST { Arbitrary~qualifies }
+  {
+    \test:n { \mole \of { catalyst } \per \gram \of { polymer } }
+  }
+
+\TEST { Highlighting~and~cancelling }
+  {
+    \test:n { \cancel \joule \per \mole \cancel \per \kelvin }
+    \test:n { \cancel \kilogram \cancel \metre }
+    \test:n { \joule \cancel \per \mole \per \kelvin }
+    \test:n { \joule \highlight { blue } \per \mole \per \kelvin }
+  }
+
+\TEST { Listing~known~units }
+  {
+    \seq_show:N \l_siunitx_unit_symbolic_seq
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Option~setting~"bracket-unit-denominator" }
+  {
+    \keys_set:nn { siunitx } { per-mode = symbol }
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+    \keys_set:nn { siunitx } { bracket-unit-denominator = false }
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+  }
+
+\TEST { Option~setting~"display-per-mode" }
+  {
+    \clist_map_inline:nn
+      {
+        fraction             ,
+        power                ,
+        power-positive-first ,
+        repeated-symbol      ,
+        symbol               ,
+        single-symbol
+      }
+      {
+        \keys_set:nn { siunitx } { display-per-mode = #1 }
+        \test:n { \per \metre }
+        \test:n { \per \metre \per \candela }
+        \test:n { \metre \per \second }
+        \test:n { \joule \per \mole \per \kelvin }
+        \test:n { \newton \metre \per \second }
+        \test:n { \per \metre \second \per \mole \ampere }
+      }
+  }
+
+\TEST { Option~setting~"extract-mass-in-kilograms" }
+  {
+    \cs_set_protected:Npn \test:n #1
+      {
+        \siunitx_unit_format_extract_prefixes:nNN {#1} \l_tmpa_tl \l_tmpa_fp
+        \tl_show:N \l_tmpa_tl
+        \fp_show:N \l_tmpa_fp
+      }
+    \test:n {       \gram }
+    \test:n { \kilo \gram }
+    \test:n { \micro \gram }
+    \test:n {       \gram \squared }
+    \test:n { \kilo \gram \squared }
+    \keys_set:nn { siunitx } { extract-mass-in-kilograms = false }
+    \test:n {       \gram }
+    \test:n { \kilo \gram }
+    \test:n { \micro \gram }
+    \test:n {       \gram \squared }
+    \test:n { \kilo \gram \squared }
+  }
+
+\TEST { Option~setting~"forbid-literal-units" }
+  {
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+    \test:n { kg.m.s^{-1}.K^{-1} }
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+    \keys_set:nn { siunitx } { forbid-literal-units = true }
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+    \test:n { kg.m.s^{-1}.K^{-1} }
+  }
+
+\TEST { Option~setting~"fraction-command" }
+  {
+    \keys_set:nn { siunitx } { per-mode = fraction }
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+    \keys_set:nn { siunitx } { fraction-command = \dfrac }
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+    \keys_set:nn { siunitx } { fraction-command = \nicefrac }
+    \test:n { \kilo \gram \metre \per \second \per \kelvin }
+  }
+
+\TEST { Option~setting~"inline-per-mode" }
+  {
+    \clist_map_inline:nn
+      {
+        fraction             ,
+        power                ,
+        power-positive-first ,
+        repeated-symbol      ,
+        symbol               ,
+        single-symbol
+      }
+      {
+        \keys_set:nn { siunitx } { inline-per-mode = #1 }
+        \test:n { \per \metre }
+        \test:n { \per \metre \per \candela }
+        \test:n { \metre \per \second }
+        \test:n { \joule \per \mole \per \kelvin }
+        \test:n { \newton \metre \per \second }
+        \test:n { \per \metre \second \per \mole \ampere }
+      }
+  }
+
+\TEST { Option~setting~"inter-unit-product" }
+  {
+    \test:n { \joule \per \mole \per \kelvin }
+    \keys_set:nn { siunitx } { inter-unit-product = \  }
+    \test:n { \joule \per \mole \per \kelvin }
+    \keys_set:nn { siunitx } { inter-unit-product = \ensuremath { \cdot } }
+    \test:n { \joule \per \mole \per \kelvin }
+  }
+
+\TEST { Option~setting~"parse-units" }
+  {
+    \test:n { \joule \per \mole \per \kelvin }
+    \test:n { \kilo \gram \metre \per \second \squared }
+    \test:n { \per \metre }
+    \test:n { }
+    \keys_set:nn { siunitx } { parse-units = false }
+    \test:n { \joule \per \mole \per \kelvin }
+    \test:n { \kilo \gram \metre \per \second \squared }
+    \test:n { \per \metre }
+    \test:n { }
+  }
+
+\TEST { Option~setting~"per-mode" }
+  {
+    \clist_map_inline:nn
+      {
+        fraction             ,
+        power                ,
+        power-positive-first ,
+        repeated-symbol      ,
+        symbol               ,
+        single-symbol
+      }
+      {
+        \keys_set:nn { siunitx } { per-mode = #1 }
+        \test:n { \per \metre }
+        \test:n { \per \metre \per \candela }
+        \test:n { \metre \per \second }
+        \test:n { \joule \per \mole \per \kelvin }
+        \test:n { \newton \metre \per \second }
+        \test:n { \per \metre \second \per \mole \ampere }
+      }
+  }
+ 
+\TEST { Option~setting~"per-symbol" }
+  {
+    \keys_set:nn { siunitx } { per-mode = symbol }
+    \keys_set:nn { siunitx } { per-symbol = \  \text { divided~by } \  }
+    \test:n { \joule \per \mole \per \kelvin }
+    \test:n { \kilo \gram \metre \per \second \squared }
+  }
+
+\TEST { Option~setting~"per-symbol-script-correction" }
+  {
+    \keys_set:nn { siunitx } { per-mode = symbol }
+    \test:n { \metre \cubed \per \gram }
+    \keys_set:nn { siunitx } { per-symbol-script-correction = }
+    \test:n { \metre \cubed \per \gram }
+  }
+
+\TEST { Option~setting~"qualifier-mode" }
+  {
+    \clist_map_inline:nn
+      {
+        bracket   ,
+        combine   ,
+        phrase    ,
+        subscript
+      }
+      {
+        \keys_set:nn { siunitx } { qualifier-mode = #1 }
+        \test:n { \kilo \gram \of { polymer } \per \mole \of { catalyst } }
+      }
+  }
+
+\TEST { Option~setting~"power-half-as-sqrt" }
+  {
+    \test:n { \hertz \tothe { 0.5 } }
+    \keys_set:nn { siunitx } { power-half-as-sqrt = true }
+    \test:n { \hertz \tothe { 0.5 } }
+  }
+
+\TEST { Option~setting~"qualifier-phrase" }
+  {
+    \keys_set:nn { siunitx } { qualifier-mode = phrase }
+    \keys_set:nn { siunitx } { qualifier-phrase = \  }
+    \test:n { \kilo \gram \of { polymer } \per \mole \of { catalyst } }
+    \keys_set:nn { siunitx } { qualifier-phrase = \ \mbox{of} \  }
+    \test:n { \kilo \gram \of { polymer } \per \mole \of { catalyst } }
+  }
+
+\TEST { Option~setting~"sticky-per" }
+  {
+    \test:n { \kilo \gram \metre \per \second \kelvin }
+    \keys_set:nn { siunitx } { sticky-per }
+    \test:n { \kilo \gram \metre \per \second \kelvin }
+  }
+
+\TEST { Option~setting~"unit-font-command" }
+  {
+    \test:n { \joule \per \mole \per \kelvin }
+    \keys_set:nn { siunitx } { unit-font-command = \mathit }
+    \test:n { \joule \per \mole \per \kelvin }
+    \keys_set:nn { siunitx } { unit-font-command = \textrm }
+    \test:n { \joule \per \mole \per \kelvin }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Dangling~parts }
+  {
+    \clist_map_inline:nn
+      {
+        \per                ,
+        \metre \per         ,
+        \kilo               ,
+        \kilo \metre \micro ,
+        \square             ,
+        \metre \square
+      }
+      {
+        \test:n { #1 }
+      }
+  }
+
+\TEST { Duplicate~parts }
+  {
+    \clist_map_inline:nn
+      {
+        \kilo \micro \metre              ,
+        \cubic \square \metre            ,
+        \cubic \metre \cubed             ,
+        \per \per \metre                 ,
+        \metre \of { oil } \of { water }
+      }
+      {
+        \test:n { #1 }
+      }
+  }
+
+\TEST { Duplicate~'sticky'~per }
+  {
+    \keys_set:nn { siunitx } { sticky-per }
+    \test:n { \joule \per \mole \per \kelvin }
+  }
+
+\TEST { Qualifier~before~unit }
+  {
+    \clist_map_inline:nn
+      {
+        \of { catalyst } \kilo \gram ,
+        \of { catalyst }
+      }
+      {
+        \test:n { #1 }
+      }
+  }
+
+\TEST { Power~before~unit }
+  {
+    \clist_map_inline:nn
+      {
+        \squared \kilo \gram ,
+        \squared
+      }
+      {
+        \test:n { #1 }
+      }
+  }
+
+\TEST { Non-convertible~exponents }
+  {
+    \siunitx_unit_format_combine_exponent:nnN { \metre } { 4 } \l_tmpa_tl
+    \siunitx_unit_format_combine_exponent:nnN { \metre \squared } { 1 }
+      \l_tmpa_tl
+    \OMIT
+      \siunitx_declare_prefix:Nn \XXX { X }
+    \TIMO
+    \siunitx_unit_format_combine_exponent:nnN { \XXX \metre } { 3 } \l_tmpa_tl
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Mapping~usage~inside~units }
+  {
+    \OMIT
+    \clist_set:Nn \l_tmpa_clist { \cm , \candela }
+    \TIMO
+    \int_step_inline:nn { \clist_count:N \l_tmpa_clist }
+      {
+        \siunitx_unit_format:nN { \clist_item:Nn \l_tmpa_clist { #1 } }
+          \l_tmpa_tl
+        \tl_show:N \l_tmpa_tl
+      }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Deprected~option~setting~"per-mode~=~symbol-or-fraction" }
+  {
+    \keys_set:nn { siunitx } { per-mode = symbol-or-fraction }
+    \test:n { \per \metre }
+    \test:n { \per \metre \per \candela }
+    \test:n { \metre \per \second }
+    \test:n { \joule \per \mole \per \kelvin }
+    \test:n { \newton \metre \per \second }
+    \test:n { \per \metre \second \per \mole \ampere }
+  }
+
+\END

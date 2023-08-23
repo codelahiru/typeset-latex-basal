@@ -1,0 +1,30 @@
+\input{regression-test}
+
+\RequirePackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\RequirePackage[table-column-type = ASn]{siunitx}
+
+\documentclass{article}
+
+\begin{document}
+
+% Set up math fonts
+\savebox0{$ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\START
+
+\begin{tabular}{ASn}
+  1.23 & 4.56 & 7.89 \\
+\end{tabular}
+
+\begin{tabular}{X}
+  1.23 & 4.56 & 7.89 \\
+\end{tabular}
+
+\OMIT
+
+\end{document}

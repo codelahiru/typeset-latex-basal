@@ -1,0 +1,89 @@
+\documentclass{article}
+
+\input{regression-test}
+
+\usepackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\usepackage{siunitx}
+
+\usepackage
+  [
+    brazilian,
+    catalan,
+    english,
+    french,
+    german,
+    italian,
+    portuguese,
+    polish,
+    spanish
+  ]
+  {babel}
+
+\ExplSyntaxOn
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \selectlanguage {#1}
+    \hbox_set:Nn \l_tmpa_box { \siunitx_number_list:nn { { 1 } { 2  } { 3 } } }
+    \box_show:N \l_tmpa_box
+    \hbox_set:Nn \l_tmpa_box { \siunitx_number_range:nn { 1 } { 2 } }
+    \box_show:N \l_tmpa_box
+  }
+\cs_set_protected:Npn \test:nn #1#2
+  {
+    \hbox_set:Nn \l_tmpa_box { \siunitx_quantity:nn {#1} {#2} }
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\ExplSyntaxOff
+
+\begin{document}
+
+\ExplSyntaxOn
+
+\START
+
+\OMIT
+
+% Set up math fonts
+\hbox_set:Nn \l_tmpa_box { $ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\TIMO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Translated~strings }
+  {
+    \clist_map_function:nN
+      {
+        brazilian ,
+        catalan   ,
+        english   ,
+        french    ,
+        german    ,
+        italian   ,
+        portuguese,
+        polish    ,
+        spanish
+      }
+      \test:n
+  }
+
+\TEST { Option~setting~"locale" }
+  {
+    \test:nn { 1.23e4 } { \metre\per\second }
+    \clist_map_inline:nn { DE , FR , IT , PL , UK , US , ZA }
+      {
+        \keys_set:nn { siunitx } { locale = #1 }
+        \test:nn { 1.23e4 } { \metre\per\second }
+      }
+  }
+
+\END

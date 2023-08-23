@@ -1,0 +1,3241 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Printing numbers
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x31.66672, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\glue 1.66663
+.\OT1/cmr/m/n/10 4
+.\OT1/cmr/m/n/10 5
+.\OT1/cmr/m/n/10 6
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x31.66672, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\glue 1.66663
+.\OT1/cmr/m/n/10 4
+.\OT1/cmr/m/n/10 5
+.\OT1/cmr/m/n/10 6
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.77+0.22)x31.66672, direction TLT
+.\hbox(6.77+0.22)x31.66672, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+..\kern1.66672
+..\TU/lmr/m/n/10 4
+..\TU/lmr/m/n/10 5
+..\TU/lmr/m/n/10 6
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.77+0.22)x31.66672, direction TLT
+.\mathon
+.\hbox(6.77+0.22)x31.66672, direction TLT
+..\hbox(6.77+0.22)x31.66672, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+...\kern1.66672
+...\TU/lmr/m/n/10 4
+...\TU/lmr/m/n/10 5
+...\TU/lmr/m/n/10 6
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: Printing units
+============================================================
+> \box...=
+\hbox(8.98335+0.0)x53.8334, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 J
+.\glue 1.66663
+.\hbox(6.94444+0.0)x16.11116, direction TLT
+..\OT1/cmr/m/n/10 m
+..\OT1/cmr/m/n/10 o
+..\OT1/cmr/m/n/10 l
+.\hbox(4.51111+0.83334)x10.73615, shifted -4.47224, direction TLT
+..\OMS/cmsy/m/n/7 ^^@
+..\OT1/cmr/m/n/7 1
+.\glue 1.66663
+.\OT1/cmr/m/n/10 K
+.\hbox(4.51111+0.83334)x10.73615, shifted -3.62892, direction TLT
+..\OMS/cmsy/m/n/7 ^^@
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+0.0)x53.8334, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 J
+.\glue 1.66663
+.\hbox(6.94444+0.0)x16.11116, direction TLT
+..\OT1/cmr/m/n/10 m
+..\OT1/cmr/m/n/10 o
+..\OT1/cmr/m/n/10 l
+.\hbox(4.51111+0.83334)x10.73615, shifted -4.47224, direction TLT
+..\OMS/cmsy/m/n/7 ^^@
+..\OT1/cmr/m/n/7 1
+.\glue 1.66663
+.\OT1/cmr/m/n/10 K
+.\hbox(4.51111+0.83334)x10.73615, shifted -3.62892, direction TLT
+..\OMS/cmsy/m/n/7 ^^@
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.27692+0.22)x53.60745, direction TLT
+.\hbox(8.27692+0.22)x53.60745, direction TLT
+..\TU/lmr/m/n/10 J
+..\kern1.66672
+..\TU/lmr/m/n/10 m
+..\TU/lmr/m/n/10 o
+..\TU/lmr/m/n/10 l
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.648+0.0)x10.62201, shifted -3.62892, direction TLT
+...\TU/lmr/m/n/7 −
+...\TU/lmr/m/n/7 1
+..\mathoff
+..\kern1.66672
+..\TU/lmr/m/n/10 K
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.648+0.0)x10.62201, shifted -3.62892, direction TLT
+...\TU/lmr/m/n/7 −
+...\TU/lmr/m/n/7 1
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.27692+0.22)x53.60745, direction TLT
+.\mathon
+.\hbox(8.27692+0.22)x53.60745, direction TLT
+..\hbox(8.27692+0.22)x53.60745, direction TLT
+...\TU/lmr/m/n/10 J
+...\kern1.66672
+...\TU/lmr/m/n/10 m
+...\TU/lmr/m/n/10 o
+...\TU/lmr/m/n/10 l
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.648+0.0)x10.62201, shifted -3.62892, direction TLT
+....\TU/lmr/m/n/7 −
+....\TU/lmr/m/n/7 1
+...\mathoff
+...\kern1.66672
+...\TU/lmr/m/n/10 K
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.648+0.0)x10.62201, shifted -3.62892, direction TLT
+....\TU/lmr/m/n/7 −
+....\TU/lmr/m/n/7 1
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: Printing subscripts
+============================================================
+> \box...=
+\hbox(6.94444+1.49998)x27.27788, direction TLT
+.\mathon
+.\hbox(6.94444+0.0)x16.11116, direction TLT
+..\OT1/cmr/m/n/10 m
+..\OT1/cmr/m/n/10 o
+..\OT1/cmr/m/n/10 l
+.\hbox(4.30556+0.0)x11.16672, shifted 1.49998, direction TLT
+..\OT1/cmr/m/n/7 c
+..\OT1/cmr/m/n/7 a
+..\OT1/cmr/m/n/7 t
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...    }
+> \box...=
+\hbox(6.94444+1.49998)x27.27788, direction TLT
+.\mathon
+.\hbox(6.94444+0.0)x16.11116, direction TLT
+..\OT1/cmr/m/n/10 m
+..\OT1/cmr/m/n/10 o
+..\OT1/cmr/m/n/10 l
+.\hbox(4.30556+0.0)x11.16672, shifted 1.49998, direction TLT
+..\OT1/cmr/m/n/7 c
+..\OT1/cmr/m/n/7 a
+..\OT1/cmr/m/n/7 t
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...    }
+> \box...=
+\hbox(6.94+1.56999)x27.271, direction TLT
+.\hbox(6.94+1.56999)x27.271, direction TLT
+..\TU/lmr/m/n/10 m
+..\TU/lmr/m/n/10 o
+..\TU/lmr/m/n/10 l
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.305+0.07)x11.161, shifted 1.49998, direction TLT
+...\TU/lmr/m/n/7 c
+...\TU/lmr/m/n/7 a
+...\TU/lmr/m/n/7 t
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...    }
+> \box...=
+\hbox(6.94+1.56999)x27.271, direction TLT
+.\mathon
+.\hbox(6.94+1.56999)x27.271, direction TLT
+..\hbox(6.94+1.56999)x27.271, direction TLT
+...\TU/lmr/m/n/10 m
+...\TU/lmr/m/n/10 o
+...\TU/lmr/m/n/10 l
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.305+0.07)x11.161, shifted 1.49998, direction TLT
+....\TU/lmr/m/n/7 c
+....\TU/lmr/m/n/7 a
+....\TU/lmr/m/n/7 t
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...    }
+============================================================
+============================================================
+TEST 4: Option setting "color"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+.\pdfcolorstack 0 pop
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+.\pdfcolorstack 0 pop
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+.\pdfcolorstack 0 pop
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\hbox(6.94+2.06)x10.28, direction TLT
+....\TU/lmr/m/n/10 k
+....\TU/lmr/m/n/10 g
+.\pdfcolorstack 0 pop
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\pdfcolorstack 0 pop
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\hbox(6.44444+0.0)x15.00005, direction TLT
+..\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+..\OT1/cmr/m/n/10 1
+..\OT1/cmr/m/n/10 2
+..\OT1/cmr/m/n/10 3
+.\pdfcolorstack 0 pop
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+.\pdfcolorstack 0 pop
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\hbox(6.66+0.22)x15.0, direction TLT
+....\TU/lmr/m/n/10 1
+....\TU/lmr/m/n/10 2
+....\TU/lmr/m/n/10 3
+.\pdfcolorstack 0 pop
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+.\pdfcolorstack 0 pop
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+.\pdfcolorstack 0 pop
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+.\pdfcolorstack 0 pop
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\pdfcolorstack 0 push {1 0 0 rg 1 0 0 RG}
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\hbox(6.94+2.06)x10.28, direction TLT
+....\TU/lmr/m/n/10 k
+....\TU/lmr/m/n/10 g
+.\pdfcolorstack 0 pop
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: Option setting "mode"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: Option setting "propagate-math-font"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+1.94444)x14.90282, direction TLT
+.\mathon
+.\hbox(8.98335+1.94444)x14.90282, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.51111+0.0)x4.48613, shifted -4.47224, direction TLT
+...\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+1.94444)x14.90282, direction TLT
+.\mathon
+.\hbox(8.98335+1.94444)x14.90282, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.51111+0.0)x4.48613, shifted -4.47224, direction TLT
+...\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+1.94444)x14.90282, direction TLT
+.\mathon
+.\hbox(8.98335+1.94444)x14.90282, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.51111+0.0)x4.48613, shifted -4.47224, direction TLT
+...\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+1.94444)x14.90282, direction TLT
+.\mathon
+.\hbox(8.98335+1.94444)x14.90282, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.51111+0.0)x4.48613, shifted -4.47224, direction TLT
+...\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x11.97911, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x11.97911, direction TLT
+..\OT1/cmr/bx/n/10 k
+..\OT1/cmr/bx/n/10 g
+..\kern0.15973 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.94444)x17.00966, direction TLT
+.\mathon
+.\hbox(8.14003+1.94444)x17.00966, direction TLT
+..\OT1/cmr/bx/n/10 k
+..\OT1/cmr/bx/n/10 g
+..\kern0.15973 (italic)
+..\hbox(4.51111+0.0)x5.03055, shifted -3.62892, direction TLT
+...\OT1/cmr/bx/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.08464, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.08464, direction TLT
+..\OT1/cmr/m/it/10 k
+..\OT1/cmr/m/it/10 g
+..\kern0.88472 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.94444)x15.72911, direction TLT
+.\mathon
+.\hbox(8.14003+1.94444)x15.72911, direction TLT
+..\OT1/cmr/m/it/10 k
+..\OT1/cmr/m/it/10 g
+..\kern0.88472 (italic)
+..\hbox(4.51111+0.0)x5.64447, shifted -3.62892, direction TLT
+...\OT1/cmr/m/it/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.0278, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.0278, direction TLT
+..\OT1/cmss/m/n/10 k
+..\OT1/cmss/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.22267+1.94444)x14.2466, direction TLT
+.\mathon
+.\hbox(8.22267+1.94444)x14.2466, direction TLT
+..\OT1/cmss/m/n/10 k
+..\OT1/cmss/m/n/10 g
+..\kern0.13887 (italic)
+..\hbox(4.59375+0.0)x4.2188, shifted -3.62892, direction TLT
+...\OT1/cmss/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.11111+2.22223)x10.49991, direction TLT
+.\mathon
+.\hbox(6.11111+2.22223)x10.49991, direction TLT
+..\OT1/cmtt/m/n/10 k
+..\OT1/cmtt/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.9067+2.22223)x14.7187, direction TLT
+.\mathon
+.\hbox(7.9067+2.22223)x14.7187, direction TLT
+..\OT1/cmtt/m/n/10 k
+..\OT1/cmtt/m/n/10 g
+..\hbox(4.27777+0.0)x4.2188, shifted -3.62892, direction TLT
+...\OT1/cmtt/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+3.80553)x39.25015, direction TLT
+.\mathon
+.\hbox(6.94444+3.80553)x39.25015, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\OT1/cmr/m/n/10 k
+...\OT1/cmr/m/n/10 g
+...\kern0.13887 (italic)
+..\hbox(4.8611+1.3611)x28.83347, shifted 2.44443, direction TLT
+...\OT1/cmr/m/n/7 p
+...\kern0.21527 (font)
+...\OT1/cmr/m/n/7 o
+...\OT1/cmr/m/n/7 l
+...\OT1/cmr/m/n/7 y
+...\OT1/cmr/m/n/7 m
+...\OT1/cmr/m/n/7 e
+...\OT1/cmr/m/n/7 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: Option setting "reset-math-version"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\hbox(6.94444+1.94444)x10.41669, direction TLT
+...\mathon
+...\hbox(6.94444+1.94444)x10.41669, direction TLT
+....\OT1/cmr/m/n/10 k
+....\OT1/cmr/m/n/10 g
+....\kern0.13887 (italic)
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x11.97911, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x11.97911, direction TLT
+..\OT1/cmr/bx/n/10 k
+..\OT1/cmr/bx/n/10 g
+..\kern0.15973 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x11.97911, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x11.97911, direction TLT
+..\OT1/cmr/bx/n/10 k
+..\OT1/cmr/bx/n/10 g
+..\kern0.15973 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: Option setting "reset-text-family"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x9.89, direction TLT
+.\hbox(6.94+2.06)x9.89, direction TLT
+..\TU/lmss/m/n/10 k
+..\TU/lmss/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x9.89, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x9.89, direction TLT
+..\hbox(6.94+2.06)x9.89, direction TLT
+...\TU/lmss/m/n/10 k
+...\TU/lmss/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 9: Option setting "reset-text-series"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.01)x11.82, direction TLT
+.\hbox(6.94+2.01)x11.82, direction TLT
+..\TU/lmr/bx/n/10 k
+..\TU/lmr/bx/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.01)x11.82, direction TLT
+.\mathon
+.\hbox(6.94+2.01)x11.82, direction TLT
+..\hbox(6.94+2.01)x11.82, direction TLT
+...\TU/lmr/bx/n/10 k
+...\TU/lmr/bx/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 10: Option setting "reset-text-shape"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.05)x9.20001, direction TLT
+.\hbox(6.94+2.05)x9.20001, direction TLT
+..\TU/lmr/m/it/10 k
+..\TU/lmr/m/it/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.05)x9.20001, direction TLT
+.\mathon
+.\hbox(6.94+2.05)x9.20001, direction TLT
+..\hbox(6.94+2.05)x9.20001, direction TLT
+...\TU/lmr/m/it/10 k
+...\TU/lmr/m/it/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 11: Option setting "text-family-to-math"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.0278, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.0278, direction TLT
+..\OT1/cmss/m/n/10 k
+..\OT1/cmss/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.0278, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.0278, direction TLT
+..\OT1/cmss/m/n/10 k
+..\OT1/cmss/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 12: Option setting "text-font-command"
+============================================================
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x15.0, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x15.0, direction TLT
+..\hbox(6.66+0.22)x15.0, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x36.81, direction TLT
+.\hbox(7.05+0.22)x36.81, direction TLT
+..\TU/lmr/m/n/10 F
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 O
+..\TU/lmr/m/n/10 O
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x36.81, direction TLT
+.\mathon
+.\hbox(7.05+0.22)x36.81, direction TLT
+..\hbox(7.05+0.22)x36.81, direction TLT
+...\TU/lmr/m/n/10 F
+...\kern-0.28 (font)
+...\TU/lmr/m/n/10 O
+...\TU/lmr/m/n/10 O
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x36.81, direction TLT
+.\hbox(7.05+0.22)x36.81, direction TLT
+..\TU/lmr/m/n/10 F
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 O
+..\TU/lmr/m/n/10 O
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x36.81, direction TLT
+.\mathon
+.\hbox(7.05+0.22)x36.81, direction TLT
+..\hbox(7.05+0.22)x36.81, direction TLT
+...\TU/lmr/m/n/10 F
+...\kern-0.28 (font)
+...\TU/lmr/m/n/10 O
+...\TU/lmr/m/n/10 O
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 2
+...\TU/lmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 13: Option setting "text-subscript-command"
+============================================================
+> \box...=
+\hbox(6.94+2.92798)x39.109, direction TLT
+.\hbox(6.94+2.92798)x39.109, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.858+1.428)x28.829, shifted 1.49998, direction TLT
+...\TU/lmr/m/n/7 p
+...\kern0.217 (font)
+...\TU/lmr/m/n/7 o
+...\TU/lmr/m/n/7 l
+...\TU/lmr/m/n/7 y
+...\discretionary (penalty 50)
+....< \TU/lmr/m/n/7 -
+...\TU/lmr/m/n/7 m
+...\TU/lmr/m/n/7 e
+...\TU/lmr/m/n/7 r
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.92798)x39.109, direction TLT
+.\mathon
+.\hbox(6.94+2.92798)x39.109, direction TLT
+..\hbox(6.94+2.92798)x39.109, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.858+1.428)x28.829, shifted 1.49998, direction TLT
+....\TU/lmr/m/n/7 p
+....\kern0.217 (font)
+....\TU/lmr/m/n/7 o
+....\TU/lmr/m/n/7 l
+....\TU/lmr/m/n/7 y
+....\discretionary (penalty 50)
+.....< \TU/lmr/m/n/7 -
+....\TU/lmr/m/n/7 m
+....\TU/lmr/m/n/7 e
+....\TU/lmr/m/n/7 r
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.92798)x39.109, direction TLT
+.\hbox(6.94+2.92798)x39.109, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.858+1.428)x28.829, shifted 1.49998, direction TLT
+...\TU/lmr/m/n/7 p
+...\kern0.217 (font)
+...\TU/lmr/m/n/7 o
+...\TU/lmr/m/n/7 l
+...\TU/lmr/m/n/7 y
+...\discretionary (penalty 50)
+....< \TU/lmr/m/n/7 -
+...\TU/lmr/m/n/7 m
+...\TU/lmr/m/n/7 e
+...\TU/lmr/m/n/7 r
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.92798)x39.109, direction TLT
+.\mathon
+.\hbox(6.94+2.92798)x39.109, direction TLT
+..\hbox(6.94+2.92798)x39.109, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.858+1.428)x28.829, shifted 1.49998, direction TLT
+....\TU/lmr/m/n/7 p
+....\kern0.217 (font)
+....\TU/lmr/m/n/7 o
+....\TU/lmr/m/n/7 l
+....\TU/lmr/m/n/7 y
+....\discretionary (penalty 50)
+.....< \TU/lmr/m/n/7 -
+....\TU/lmr/m/n/7 m
+....\TU/lmr/m/n/7 e
+....\TU/lmr/m/n/7 r
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x53.37, direction TLT
+.\hbox(6.94+2.06)x53.37, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+..\TU/lmr/m/n/10 X
+..\discretionary (penalty 50)
+...< \TU/lmr/m/n/10 -
+..\TU/lmr/m/n/10 p
+..\kern0.28 (font)
+..\TU/lmr/m/n/10 o
+..\TU/lmr/m/n/10 l
+..\TU/lmr/m/n/10 y
+..\discretionary (penalty 50)
+...< \TU/lmr/m/n/10 -
+..\TU/lmr/m/n/10 m
+..\TU/lmr/m/n/10 e
+..\TU/lmr/m/n/10 r
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x53.37, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x53.37, direction TLT
+..\hbox(6.94+2.06)x53.37, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+...\TU/lmr/m/n/10 X
+...\discretionary (penalty 50)
+....< \TU/lmr/m/n/10 -
+...\TU/lmr/m/n/10 p
+...\kern0.28 (font)
+...\TU/lmr/m/n/10 o
+...\TU/lmr/m/n/10 l
+...\TU/lmr/m/n/10 y
+...\discretionary (penalty 50)
+....< \TU/lmr/m/n/10 -
+...\TU/lmr/m/n/10 m
+...\TU/lmr/m/n/10 e
+...\TU/lmr/m/n/10 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x53.37, direction TLT
+.\hbox(6.94+2.06)x53.37, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+..\TU/lmr/m/n/10 X
+..\discretionary (penalty 50)
+...< \TU/lmr/m/n/10 -
+..\TU/lmr/m/n/10 p
+..\kern0.28 (font)
+..\TU/lmr/m/n/10 o
+..\TU/lmr/m/n/10 l
+..\TU/lmr/m/n/10 y
+..\discretionary (penalty 50)
+...< \TU/lmr/m/n/10 -
+..\TU/lmr/m/n/10 m
+..\TU/lmr/m/n/10 e
+..\TU/lmr/m/n/10 r
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x53.37, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x53.37, direction TLT
+..\hbox(6.94+2.06)x53.37, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+...\TU/lmr/m/n/10 X
+...\discretionary (penalty 50)
+....< \TU/lmr/m/n/10 -
+...\TU/lmr/m/n/10 p
+...\kern0.28 (font)
+...\TU/lmr/m/n/10 o
+...\TU/lmr/m/n/10 l
+...\TU/lmr/m/n/10 y
+...\discretionary (penalty 50)
+....< \TU/lmr/m/n/10 -
+...\TU/lmr/m/n/10 m
+...\TU/lmr/m/n/10 e
+...\TU/lmr/m/n/10 r
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 14: Option setting "text-superscript-command"
+============================================================
+> \box...=
+\hbox(8.55692+0.11)x26.231, direction TLT
+.\hbox(8.55692+0.11)x26.231, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 b
+..\kern0.28 (font)
+..\TU/lmr/m/n/10 c
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.928+0.07)x10.951, shifted -3.62892, direction TLT
+...\TU/lmr/m/n/7 d
+...\TU/lmr/m/n/7 e
+...\TU/lmr/m/n/7 f
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.55692+0.11)x26.231, direction TLT
+.\mathon
+.\hbox(8.55692+0.11)x26.231, direction TLT
+..\hbox(8.55692+0.11)x26.231, direction TLT
+...\TU/lmr/m/n/10 a
+...\TU/lmr/m/n/10 b
+...\kern0.28 (font)
+...\TU/lmr/m/n/10 c
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.928+0.07)x10.951, shifted -3.62892, direction TLT
+....\TU/lmr/m/n/7 d
+....\TU/lmr/m/n/7 e
+....\TU/lmr/m/n/7 f
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.55692+0.11)x26.231, direction TLT
+.\hbox(8.55692+0.11)x26.231, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 b
+..\kern0.28 (font)
+..\TU/lmr/m/n/10 c
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.928+0.07)x10.951, shifted -3.62892, direction TLT
+...\TU/lmr/m/n/7 d
+...\TU/lmr/m/n/7 e
+...\TU/lmr/m/n/7 f
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.55692+0.11)x26.231, direction TLT
+.\mathon
+.\hbox(8.55692+0.11)x26.231, direction TLT
+..\hbox(8.55692+0.11)x26.231, direction TLT
+...\TU/lmr/m/n/10 a
+...\TU/lmr/m/n/10 b
+...\kern0.28 (font)
+...\TU/lmr/m/n/10 c
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.928+0.07)x10.951, shifted -3.62892, direction TLT
+....\TU/lmr/m/n/7 d
+....\TU/lmr/m/n/7 e
+....\TU/lmr/m/n/7 f
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.11)x35.84, direction TLT
+.\hbox(7.05+0.11)x35.84, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 b
+..\kern0.28 (font)
+..\TU/lmr/m/n/10 c
+..\TU/lmr/m/n/10 X
+..\TU/lmr/m/n/10 d
+..\TU/lmr/m/n/10 e
+..\TU/lmr/m/n/10 f
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.11)x35.84, direction TLT
+.\mathon
+.\hbox(7.05+0.11)x35.84, direction TLT
+..\hbox(7.05+0.11)x35.84, direction TLT
+...\TU/lmr/m/n/10 a
+...\TU/lmr/m/n/10 b
+...\kern0.28 (font)
+...\TU/lmr/m/n/10 c
+...\TU/lmr/m/n/10 X
+...\TU/lmr/m/n/10 d
+...\TU/lmr/m/n/10 e
+...\TU/lmr/m/n/10 f
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.11)x35.84, direction TLT
+.\hbox(7.05+0.11)x35.84, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 b
+..\kern0.28 (font)
+..\TU/lmr/m/n/10 c
+..\TU/lmr/m/n/10 X
+..\TU/lmr/m/n/10 d
+..\TU/lmr/m/n/10 e
+..\TU/lmr/m/n/10 f
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.11)x35.84, direction TLT
+.\mathon
+.\hbox(7.05+0.11)x35.84, direction TLT
+..\hbox(7.05+0.11)x35.84, direction TLT
+...\TU/lmr/m/n/10 a
+...\TU/lmr/m/n/10 b
+...\kern0.28 (font)
+...\TU/lmr/m/n/10 c
+...\TU/lmr/m/n/10 X
+...\TU/lmr/m/n/10 d
+...\TU/lmr/m/n/10 e
+...\TU/lmr/m/n/10 f
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 15: Option setting "text-series-to-math"
+============================================================
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x10.41669, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x10.41669, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 g
+..\kern0.13887 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x11.97911, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x11.97911, direction TLT
+..\OT1/cmr/bx/n/10 k
+..\OT1/cmr/bx/n/10 g
+..\kern0.15973 (italic)
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.94444)x11.97911, direction TLT
+.\mathon
+.\hbox(6.94444+1.94444)x11.97911, direction TLT
+..\hbox(6.94444+1.94444)x11.97911, direction TLT
+...\mathon
+...\hbox(6.94444+1.94444)x11.97911, direction TLT
+....\OT1/cmr/bx/n/10 k
+....\OT1/cmr/bx/n/10 g
+....\kern0.15973 (italic)
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\TU/lmr/m/n/10 k
+..\TU/lmr/m/n/10 g
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.06)x10.28, direction TLT
+.\mathon
+.\hbox(6.94+2.06)x10.28, direction TLT
+..\hbox(6.94+2.06)x10.28, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 g
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 16: Printing fractions
+============================================================
+> \box...=
+\hbox(8.79842+3.44841)x15.2195, direction TLT
+.\mathon
+.\hbox(8.79842+3.44841)x15.2195, direction TLT
+..\hbox(8.79842+3.44841)x15.2195, direction TLT
+...\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+...\vbox(8.79842+3.44841)x12.8195, direction TLT
+....\hbox(4.8611+0.0)x12.8195, glue set 2.26738fil, direction TLT
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\OT1/cmr/m/n/7 k
+.....\OT1/cmr/m/n/7 J
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\kern1.23732 (font)
+....\rule(0.39998+0.0)x*
+....\kern0.88731 (font)
+....\hbox(4.8611+0.0)x12.8195, direction TLT
+.....\OT1/cmr/m/n/7 m
+.....\OT1/cmr/m/n/7 o
+.....\OT1/cmr/m/n/7 l
+...\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.79842+3.44841)x15.2195, direction TLT
+.\mathon
+.\hbox(8.79842+3.44841)x15.2195, direction TLT
+..\hbox(8.79842+3.44841)x15.2195, direction TLT
+...\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+...\vbox(8.79842+3.44841)x12.8195, direction TLT
+....\hbox(4.8611+0.0)x12.8195, glue set 2.26738fil, direction TLT
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\OT1/cmr/m/n/7 k
+.....\OT1/cmr/m/n/7 J
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+....\kern1.23732 (font)
+....\rule(0.39998+0.0)x*
+....\kern0.88731 (font)
+....\hbox(4.8611+0.0)x12.8195, direction TLT
+.....\OT1/cmr/m/n/7 m
+.....\OT1/cmr/m/n/7 o
+.....\OT1/cmr/m/n/7 l
+...\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(10.87732+5.14998)x18.51, direction TLT
+.\hbox(10.87732+5.14998)x18.51, direction TLT
+..\mathon
+..\hbox(10.87732+5.14998)x18.51, direction TLT
+...\hbox(10.87732+5.14998)x18.51, direction TLT
+....\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+....\vbox(10.87732+5.14998)x16.11, direction TLT
+.....\hbox(6.94+0.22)x16.11, glue set 2.845fil, direction TLT
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\TU/lmr/m/n/10 k
+......\TU/lmr/m/n/10 J
+......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\kern1.01732 (font)
+.....\rule(0.39998+0.0)x*
+.....\kern0.39998 (font)
+.....\hbox(6.94+0.11)x16.11, direction TLT
+......\TU/lmr/m/n/10 m
+......\TU/lmr/m/n/10 o
+......\TU/lmr/m/n/10 l
+....\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(10.87732+5.14998)x18.51, direction TLT
+.\mathon
+.\hbox(10.87732+5.14998)x18.51, direction TLT
+..\hbox(10.87732+5.14998)x18.51, direction TLT
+...\mathon
+...\hbox(10.87732+5.14998)x18.51, direction TLT
+....\hbox(10.87732+5.14998)x18.51, direction TLT
+.....\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+.....\vbox(10.87732+5.14998)x16.11, direction TLT
+......\hbox(6.94+0.22)x16.11, glue set 2.845fil, direction TLT
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+.......\TU/lmr/m/n/10 k
+.......\TU/lmr/m/n/10 J
+.......\glue 0.0 plus 1.0fil minus 1.0fil
+......\kern1.01732 (font)
+......\rule(0.39998+0.0)x*
+......\kern0.39998 (font)
+......\hbox(6.94+0.11)x16.11, direction TLT
+.......\TU/lmr/m/n/10 m
+.......\TU/lmr/m/n/10 o
+.......\TU/lmr/m/n/10 l
+.....\hbox(0.0+0.0)x1.2, shifted -2.5, direction TLT
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 17: Printing math choice
+============================================================
+> \box...=
+\hbox(8.98335+0.0)x38.93063, direction TLT
+.\mathon
+.\hbox(6.94444+0.0)x10.4167, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 J
+.\glue 1.66663
+.\hbox(6.94444+0.0)x16.11116, direction TLT
+..\OT1/cmr/m/n/10 m
+..\OT1/cmr/m/n/10 o
+..\OT1/cmr/m/n/10 l
+.\hbox(4.51111+0.83334)x10.73615, shifted -4.47224, direction TLT
+..\OMS/cmsy/m/n/7 ^^@
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+0.0)x38.93063, direction TLT
+.\mathon
+.\hbox(6.94444+0.0)x10.4167, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 J
+.\glue 1.66663
+.\hbox(6.94444+0.0)x16.11116, direction TLT
+..\OT1/cmr/m/n/10 m
+..\OT1/cmr/m/n/10 o
+..\OT1/cmr/m/n/10 l
+.\hbox(4.51111+0.83334)x10.73615, shifted -4.47224, direction TLT
+..\OMS/cmsy/m/n/7 ^^@
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.27692+0.22)x38.81873, direction TLT
+.\hbox(8.27692+0.22)x38.81873, direction TLT
+..\mathon
+..\hbox(8.27692+0.22)x38.81873, direction TLT
+...\TU/lmr/m/n/10 k
+...\TU/lmr/m/n/10 J
+...\kern1.66672
+...\TU/lmr/m/n/10 m
+...\TU/lmr/m/n/10 o
+...\TU/lmr/m/n/10 l
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.648+0.0)x10.62201, shifted -3.62892, direction TLT
+....\TU/lmr/m/n/7 −
+....\TU/lmr/m/n/7 1
+...\mathoff
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.27692+0.22)x38.81873, direction TLT
+.\mathon
+.\hbox(8.27692+0.22)x38.81873, direction TLT
+..\hbox(8.27692+0.22)x38.81873, direction TLT
+...\mathon
+...\hbox(8.27692+0.22)x38.81873, direction TLT
+....\TU/lmr/m/n/10 k
+....\TU/lmr/m/n/10 J
+....\kern1.66672
+....\TU/lmr/m/n/10 m
+....\TU/lmr/m/n/10 o
+....\TU/lmr/m/n/10 l
+....\mathon
+....\hbox(0.0+0.0)x0.0, direction TLT
+....\hbox(4.648+0.0)x10.62201, shifted -3.62892, direction TLT
+.....\TU/lmr/m/n/7 −
+.....\TU/lmr/m/n/7 1
+....\mathoff
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 18: Text-only units
+============================================================
+> \box...=
+\hbox(8.92+0.0)x7.5, direction TLT
+.\mathon
+.\hbox(8.92+0.0)x7.5, direction TLT
+..\hbox(8.92+0.0)x7.5, direction TLT
+...\TU/lmr/m/n/10 Å
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.92+0.0)x7.5, direction TLT
+.\mathon
+.\hbox(8.92+0.0)x7.5, direction TLT
+..\hbox(8.92+0.0)x7.5, direction TLT
+...\TU/lmr/m/n/10 Å
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.92+0.0)x7.5, direction TLT
+.\hbox(8.92+0.0)x7.5, direction TLT
+..\hbox(8.92+0.0)x7.5, direction TLT
+...\TU/lmr/m/n/10 Å
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.92+0.0)x7.5, direction TLT
+.\mathon
+.\hbox(8.92+0.0)x7.5, direction TLT
+..\hbox(8.92+0.0)x7.5, direction TLT
+...\hbox(8.92+0.0)x7.5, direction TLT
+....\TU/lmr/m/n/10 Å
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 19: Nested math mode
+============================================================
+> \box...=
+\hbox(8.14003+0.83333)x27.26398, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\hbox(5.83333+0.83333)x7.7778, direction TLT
+..\OMS/cmsy/m/n/10 ^^B
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x27.26398, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\hbox(5.83333+0.83333)x7.7778, direction TLT
+..\OMS/cmsy/m/n/10 ^^B
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.27692+0.22)x27.263, direction TLT
+.\hbox(8.27692+0.22)x27.263, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 ×
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 0
+..\mathon
+..\hbox(0.0+0.0)x0.0, direction TLT
+..\hbox(4.648+0.14)x4.483, shifted -3.62892, direction TLT
+...\TU/lmr/m/n/7 3
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.27692+0.22)x27.263, direction TLT
+.\mathon
+.\hbox(8.27692+0.22)x27.263, direction TLT
+..\hbox(8.27692+0.22)x27.263, direction TLT
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 ×
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 0
+...\mathon
+...\hbox(0.0+0.0)x0.0, direction TLT
+...\hbox(4.648+0.14)x4.483, shifted -3.62892, direction TLT
+....\TU/lmr/m/n/7 3
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 20: Comparators in text mode
+============================================================
+> \box...=
+\hbox(6.44444+1.35971)x32.98961, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^U
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 1
+.\OML/cmm/m/it/10 e
+.\OT1/cmr/m/n/10 7
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+1.35971)x32.98961, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^U
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 1
+.\OML/cmm/m/it/10 e
+.\OT1/cmr/m/n/10 7
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.76+1.35971)x29.9978, direction TLT
+.\hbox(6.76+1.35971)x29.9978, direction TLT
+..\mathon
+..\OMS/cmsy/m/n/10 ^^U
+..\mathoff
+..\TU/lmr/m/n/10 0
+..\TU/lmr/m/n/10 .
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 e
+..\TU/lmr/m/n/10 7
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.76+1.35971)x29.9978, direction TLT
+.\mathon
+.\hbox(6.76+1.35971)x29.9978, direction TLT
+..\hbox(6.76+1.35971)x29.9978, direction TLT
+...\mathon
+...\OMS/cmsy/m/n/10 ^^U
+...\mathoff
+...\TU/lmr/m/n/10 0
+...\TU/lmr/m/n/10 .
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 e
+...\TU/lmr/m/n/10 7
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+1.35971)x32.98961, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^U
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 1
+.\OML/cmm/m/it/10 e
+.\OT1/cmr/m/n/10 7
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+1.35971)x32.98961, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^U
+.\glue(\thickmuskip) 2.77771 plus 2.77771
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 1
+.\OML/cmm/m/it/10 e
+.\OT1/cmr/m/n/10 7
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.76+1.35971)x29.9978, direction TLT
+.\hbox(6.76+1.35971)x29.9978, direction TLT
+..\mathon
+..\OMS/cmsy/m/n/10 ^^U
+..\mathoff
+..\TU/lmr/m/n/10 0
+..\TU/lmr/m/n/10 .
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 e
+..\TU/lmr/m/n/10 7
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.76+1.35971)x29.9978, direction TLT
+.\mathon
+.\hbox(6.76+1.35971)x29.9978, direction TLT
+..\hbox(6.76+1.35971)x29.9978, direction TLT
+...\mathon
+...\OMS/cmsy/m/n/10 ^^U
+...\mathoff
+...\TU/lmr/m/n/10 0
+...\TU/lmr/m/n/10 .
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 e
+...\TU/lmr/m/n/10 7
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 21: Square root in text mode
+============================================================
+> \box...=
+\hbox(8.00272+2.39725)x16.66672, direction TLT
+.\mathon
+.\hbox(8.00272+2.39725)x16.66672, direction TLT
+..\hbox(0.39998+9.6)x8.33336, shifted -7.20276, direction TLT
+...\OMS/cmsy/m/n/10 p
+..\vbox(8.00272+0.0)x8.33336, direction TLT
+...\kern0.39998 (font)
+...\rule(0.39998+0.0)x*
+...\kern2.89722 (font)
+...\hbox(4.30554+0.0)x8.33336, direction TLT
+....\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.00272+2.39725)x16.66672, direction TLT
+.\mathon
+.\hbox(8.00272+2.39725)x16.66672, direction TLT
+..\hbox(0.39998+9.6)x8.33336, shifted -7.20276, direction TLT
+...\OMS/cmsy/m/n/10 p
+..\vbox(8.00272+0.0)x8.33336, direction TLT
+...\kern0.39998 (font)
+...\rule(0.39998+0.0)x*
+...\kern2.89722 (font)
+...\hbox(4.30554+0.0)x8.33336, direction TLT
+....\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.05995+2.34001)x16.66336, direction TLT
+.\hbox(8.05995+2.34001)x16.66336, direction TLT
+..\mathon
+..\hbox(8.05995+2.34001)x16.66336, direction TLT
+...\hbox(0.39998+9.6)x8.33336, shifted -7.26, direction TLT
+....\OMS/cmsy/m/n/10 p
+...\vbox(8.05995+0.0)x8.33, direction TLT
+....\kern0.39998 (font)
+....\rule(0.39998+0.0)x*
+....\kern2.84 (font)
+....\hbox(4.42+0.0)x8.33, direction TLT
+.....\TU/lmr/m/n/10 m
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.05995+2.34001)x16.66336, direction TLT
+.\mathon
+.\hbox(8.05995+2.34001)x16.66336, direction TLT
+..\hbox(8.05995+2.34001)x16.66336, direction TLT
+...\mathon
+...\hbox(8.05995+2.34001)x16.66336, direction TLT
+....\hbox(0.39998+9.6)x8.33336, shifted -7.26, direction TLT
+.....\OMS/cmsy/m/n/10 p
+....\vbox(8.05995+0.0)x8.33, direction TLT
+.....\kern0.39998 (font)
+.....\rule(0.39998+0.0)x*
+.....\kern2.84 (font)
+.....\hbox(4.42+0.0)x8.33, direction TLT
+......\TU/lmr/m/n/10 m
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 22: Leading \pm 
+============================================================
+> \box...=
+\hbox(6.44444+0.83333)x17.77783, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 +
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x17.77783, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 +
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.83)x17.78, direction TLT
+.\hbox(6.66+0.83)x17.78, direction TLT
+..\TU/lmr/m/n/10 +
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 0
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.83)x17.78, direction TLT
+.\mathon
+.\hbox(6.66+0.83)x17.78, direction TLT
+..\hbox(6.66+0.83)x17.78, direction TLT
+...\TU/lmr/m/n/10 +
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x17.77783, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^@
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x17.77783, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^@
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x17.78, direction TLT
+.\hbox(6.66+0.22)x17.78, direction TLT
+..\TU/lmr/m/n/10 −
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 0
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x17.78, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x17.78, direction TLT
+..\hbox(6.66+0.22)x17.78, direction TLT
+...\TU/lmr/m/n/10 −
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x17.77783, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^F
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x17.77783, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^F
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x17.78, direction TLT
+.\hbox(6.66+0.22)x17.78, direction TLT
+..\TU/lmr/m/n/10 ±
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 0
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.66+0.22)x17.78, direction TLT
+.\mathon
+.\hbox(6.66+0.22)x17.78, direction TLT
+..\hbox(6.66+0.22)x17.78, direction TLT
+...\TU/lmr/m/n/10 ±
+...\TU/lmr/m/n/10 1
+...\TU/lmr/m/n/10 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+.\mathon
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+.\mathon
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 23: Symbols in \ensuremath 
+============================================================
+> \box...=
+\hbox(4.44444+0.0)x2.77779, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^A
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.44444+0.0)x2.77779, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^A
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.44444+0.0)x2.77779, direction TLT
+.\hbox(4.44444+0.0)x2.77779, direction TLT
+..\mathon
+..\OMS/cmsy/m/n/10 ^^A
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.44444+0.0)x2.77779, direction TLT
+.\mathon
+.\hbox(4.44444+0.0)x2.77779, direction TLT
+..\hbox(4.44444+0.0)x2.77779, direction TLT
+...\mathon
+...\OMS/cmsy/m/n/10 ^^A
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^F
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^F
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\hbox(5.83333+0.83333)x7.7778, direction TLT
+..\mathon
+..\OMS/cmsy/m/n/10 ^^F
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\mathon
+.\hbox(5.83333+0.83333)x7.7778, direction TLT
+..\hbox(5.83333+0.83333)x7.7778, direction TLT
+...\mathon
+...\OMS/cmsy/m/n/10 ^^F
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^B
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\mathon
+.\OMS/cmsy/m/n/10 ^^B
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\hbox(5.83333+0.83333)x7.7778, direction TLT
+..\mathon
+..\OMS/cmsy/m/n/10 ^^B
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(5.83333+0.83333)x7.7778, direction TLT
+.\mathon
+.\hbox(5.83333+0.83333)x7.7778, direction TLT
+..\hbox(5.83333+0.83333)x7.7778, direction TLT
+...\mathon
+...\OMS/cmsy/m/n/10 ^^B
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+(siunitx-print.aux)
