@@ -1,0 +1,253 @@
+\documentclass{article}
+
+\input{regression-test}
+
+\usepackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\RequirePackage{siunitx}
+
+\begin{document}
+
+\START
+
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\OMIT
+
+% Set up math fonts
+\hbox_set:Nn \l_tmpa_box { $ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\cs_set_protected:Npn \test:n #1
+  {
+    \hbox_set:Nn \l_tmpa_box
+      {
+        \siunitx_complex_number:n {#1}
+      }
+    \box_show:N \l_tmpa_box
+  }
+\cs_set_protected:Npn \test:nn #1#2
+  {
+    \hbox_set:Nn \l_tmpa_box
+      {
+        \siunitx_complex_number:nn {#1} {#2}
+      }
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\TEST { Basic~complex~numbers }
+  {
+    \test:n { 1 }
+    \test:n { i }
+    \test:n { +5.2i }
+    \test:n { -i5.2 }
+    \test:n { 1 + i }
+    \test:n { 2 + 2i }
+    \test:n { 2 + i2 }
+    \test:n { 1.2 - 3(4)i }
+    \test:n { 1.2 - i3(4) }
+    \test:n { 1.2 - 3(4)ie3 }
+    \test:nn { 1 } { 10 }
+    \test:nn { -1 } { -10 }
+    \test:nn { 1.2e3 } { 4 }
+    \test:nn { 1.2(3) } { 4 }
+    \test:nn { } { 1 }
+    \test:nn { 2 } { }
+  }
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \hbox_set:Nn \l_tmpa_box
+      {
+        \siunitx_complex_quantity:nn {#1} { \metre }
+      }
+    \box_show:N \l_tmpa_box
+  }
+\cs_set_protected:Npn \test:nn #1#2
+  {
+    \hbox_set:Nn \l_tmpa_box
+      {
+        \siunitx_complex_quantity:nnn {#1} {#2} { \metre }
+      }
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\TEST { Basic~complex~quantities }
+  {
+    \test:n { 1 }
+    \test:n { i }
+    \test:n { -i }
+    \test:n { +5.2i }
+    \test:n { -i5.2 }
+    \test:n { 1 + i }
+    \test:n { 2 + 2i }
+    \test:n { 2 + i2 }
+    \test:n { 1.2 - 3(4)i }
+    \test:n { 1.2 - i3(4) }
+    \test:n { 1.2 - 3(4)ie3 }
+    \test:nn { 1 } { 10 }
+    \test:nn { -1 } { -10 }
+    \test:nn { 1.2e3 } { 4 }
+    \test:nn { 1.2(3) } { 4 }
+    \test:nn { } { 1 }
+    \test:nn { 2 } { }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \hbox_set:Nn \l_tmpa_box
+      {
+        \siunitx_complex_number:n {#1}
+      }
+    \box_show:N \l_tmpa_box
+  }
+\cs_set_protected:Npn \test:nn #1#2
+  {
+    \hbox_set:Nn \l_tmpa_box
+      {
+        \siunitx_complex_number:nn {#1} {#2}
+      }
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\TEST { Option~setting~"complex-angle-unit" }
+  {
+    \keys_set:nn { siunitx } { complex-mode = polar }
+    \test:nn { 10 } { 45 }
+    \test:n { 1 + i }
+    \keys_set:nn { siunitx } { complex-angle-unit = radians }
+    \test:nn { 10 } { 45 }
+    \test:n { 1 + i }
+  }
+
+\TEST { Option~setting~"complex-mode" }
+  {
+    \test:n { 12.34 }
+    \test:n { i }
+    \test:n { -i }
+    \test:n { -2i }
+    \test:n { 12.34 + 2i }
+    \test:nn { 1 } { 30 }
+    \keys_set:nn { siunitx } { complex-mode = cartesian }
+    \test:n { 12.34 }
+    \test:n { i }
+    \test:n { -i }
+    \test:n { -2i }
+    \test:n { 12.34 + 2i }
+    \test:nn { 1 } { 30 }
+    \keys_set:nn { siunitx } { complex-mode = polar }
+    \test:n { 12.34 }
+    \test:n { i }
+    \test:n { -i }
+    \test:n { -2i }
+    \test:n { 12.34 + 2i }
+    \test:nn { 1 } { 30 }
+  }
+
+\TEST { Option~setting~"complex-root-position" }
+  {
+    \test:n { 12.34 + 2i }
+    \test:n { 2i }
+    \test:n { -2i }
+    \keys_set:nn { siunitx } { complex-root-position = before-number }
+    \test:n { 12.34 + 2i }
+    \test:n { 2i }
+    \test:n { -2i }
+  }
+
+\TEST { Option~setting~"complex-symbol-angle" }
+  {
+    \test:nn { 12 } { 30 }
+    \keys_set:nn { siunitx } { complex-symbol-angle = A }
+    \test:nn { 12 } { 30 }
+  }
+
+\TEST { Option~setting~"complex-symbol-degree" }
+  {
+    \test:nn { 12 } { 30 }
+    \keys_set:nn { siunitx } { complex-symbol-degree = D }
+    \test:nn { 12 } { 30 }
+  }
+
+\TEST { Option~setting~"input-complex-root" }
+  {
+    \test:n { 12.34 + 2i }
+    \keys_set:nn { siunitx } { input-complex-root = }
+    \test:n { 12.34 + 2i }
+  }
+
+\TEST { Option~setting~"output-complex-root" }
+  {
+    \test:n { 12.34 + 2i }
+    \keys_set:nn { siunitx } { output-complex-root = j }
+    \test:n { 12.34 + 2i }
+  }
+
+\TEST { Option~setting~"print-complex-unity" }
+  {
+    \test:n { 1 + 1i }
+    \keys_set:nn { siunitx } { print-complex-unity = true }
+    \test:n { 1 + 1i }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \hbox_set:Nn \l_tmpa_box
+      {
+        \siunitx_complex_quantity:nn {#1} { \metre }
+      }
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\TEST { Option~settings~"exponent-mode"~and~"prefix-mode" }
+  {
+    \test:n { 0,00540 + j0,01717 }
+    \keys_set:nn { siunitx }
+      { exponent-mode = engineering, prefix-mode = combine-exponent }
+    \test:n { 0,00540 + j0,01717 }
+  }
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \hbox_set:Nn \l_tmpa_box {#1}
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\TEST { Option~settings~"complex-mode"~and~"parse-numbers" }
+  {
+    \keys_set:nn { siunitx } { parse-numbers = false }
+    \test:n { \siunitx_complex_number:n { 1 + i } }
+    \test:n { \siunitx_complex_number:nn { 1 } { 30 } }
+    \test:n { \siunitx_complex_quantity:nn { 1 + i } { \metre } }
+    \test:n { \siunitx_complex_quantity:nnn { 1 } { 30 } { \metre } }
+    \keys_set:nn { siunitx } { complex-mode = cartesian }
+    \test:n { \siunitx_complex_number:n { 1 + i } }
+    \test:n { \siunitx_complex_number:nn { 1 } { 30 } }
+    \test:n { \siunitx_complex_quantity:nn { 1 + i } { \metre } }
+    \test:n { \siunitx_complex_quantity:nnn { 1 } { 30 } { \metre } }
+    \keys_set:nn { siunitx } { complex-mode = polar }
+    \test:n { \siunitx_complex_number:n { 1 + i } }
+    \test:n { \siunitx_complex_number:nn { 1 } { 30 } }
+    \test:n { \siunitx_complex_quantity:nn { 1 + i } { \metre } }
+    \test:n { \siunitx_complex_quantity:nnn { 1 } { 30 } { \metre } }
+  }
+
+\END

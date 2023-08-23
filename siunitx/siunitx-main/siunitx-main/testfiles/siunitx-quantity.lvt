@@ -1,0 +1,146 @@
+\documentclass{article}
+
+\input{regression-test}
+
+\usepackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\usepackage{siunitx}
+
+\ExplSyntaxOn
+
+\OMIT
+\cs_set_protected:Npn \test:nn #1#2
+  {
+    \hbox_set:Nn \l_tmpa_box { \siunitx_quantity:nn {#1} {#2} }
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\ExplSyntaxOff
+
+\begin{document}
+
+\ExplSyntaxOn
+
+\START
+
+\OMIT
+
+% Set up math fonts
+\hbox_set:Nn \l_tmpa_box { $ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\TIMO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Basic~formatting:~integers }
+  {
+    \test:nn { 1 } { m }
+    \test:nn { 123 } { \kilo \gram }
+    \test:nn { 123456789 } { }
+    \test:nn { } { \candela }
+  }
+
+\TEST { Tricky~units }
+  {
+    \test:nn { 10 \pm 2 } { \pm }
+    \test:nn { 10 } { \arcminute }
+    \test:nn { 10 } { \arcsecond }
+    \test:nn { 10 } { \degree }
+    \test:nn { 10 } { \milli \degree }
+    \test:nn { 10 } { \degree \metre }
+    \test:nn { 10 } { \kWh }
+    \test:nn { 10 } { \kilo \watt \hour }
+  }
+
+\TEST { Simple~printing }
+  {
+    \siunitx_quantity_print:nn { 123 \times 10^{4} } { \mathrm{m} } 
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Option~setting~"allow-quantity-breaks" }
+  {
+    \test:nn { 123 } { \metre }
+    \keys_set:nn { siunitx } { allow-quantity-breaks = true }
+    \test:nn { 123 } { \metre }
+  }
+
+\TEST { Option~setting~"quantity-products" }
+  {
+    \test:nn { 123 } { \metre }
+    \keys_set:nn { siunitx } { quantity-product = \ensuremath { \times } }
+    \test:nn { 123 } { \metre }
+  }
+
+\TEST { Option~setting~"prefix-mode" }
+  {
+    \test:nn { 123 } { \kilo \gram }
+    \test:nn { 123e-3 } { \kilo \gram }
+    \test:nn { 1e-3 } { \micro \gram \per \milli \litre }
+    \test:nn { 100(2) } { \mega \pascal }
+    \keys_set:nn { siunitx } { prefix-mode = combine-exponent }
+    \test:nn { 123e-3 } { \kilo \gram }
+    \test:nn { 123e-3 } { \gram }
+    \test:nn { 123e-3 } { \kilo \gram \per \metre }
+    \keys_set:nn { siunitx } { prefix-mode = extract-exponent }
+    \test:nn { 123 } { \kilo \gram }
+    \test:nn { 123e-3 } { \kilo \gram }
+    \test:nn { 1e-3 } { \micro \gram \per \milli \litre }
+    \test:nn { 100(2) } { \mega \pascal }
+  }
+
+\TEST { Option~setting~"output-decimal-marker" }
+  {
+    \test:nn { 1.2 } { \gram \tothe { 0.5 } }
+    \keys_set:nn { siunitx } { output-decimal-marker = { , } }
+    \test:nn { 1.2 } { \gram \tothe { 0.5 } }
+  }
+
+\TEST { Option~setting~"separate-uncertainty-units" }
+  {
+    \keys_set:nn { siunitx } { uncertainty-mode = separate }
+    \test:nn { 1.2(3) } { \kilo \gram }
+    \test:nn { 1.2(3)e4 } { \kilo \gram }
+    \test:nn { >-1.2(3)e4 } { \kilo \gram }
+    \keys_set:nn { siunitx } { separate-uncertainty-units = repeat }
+    \test:nn { 1.2(3) } { \kilo \gram }
+    \test:nn { 1.2(3)e4 } { \kilo \gram }
+    \test:nn { >-1.2(3)e4 } { \kilo \gram }
+    \keys_set:nn { siunitx } { separate-uncertainty-units = single }
+    \test:nn { 1.2(3) } { \kilo \gram }
+    \test:nn { 1.2(3)e4 } { \kilo \gram }
+    \test:nn { >-1.2(3)e4 } { \kilo \gram }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Option~settings~"prefix-mode~=~combine-exponent"~and~"exponent-mode~=~engineering" }
+  {
+    \keys_set:nn { siunitx } { exponent-mode = engineering }
+    \keys_set:nn { siunitx } { prefix-mode = combine-exponent }
+    \test:nn { 7e-5 } { \volt }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Option~setting~"exponent-product" }
+  {
+    \keys_set:nn { siunitx } { exponent-product = { { \times } } }
+    \test:nn { 1e2 } { \metre }
+  }
+
+\TEST { Option~setting~"per-mode~=~symbol" }
+  {
+    \keys_set:nn { siunitx } { per-mode = symbol }
+    \test:nn { } { \per \second }
+    \test:nn { 2 } { \per \second }
+    \test:nn { 3 } { \metre \per \second }
+  }
+
+\END

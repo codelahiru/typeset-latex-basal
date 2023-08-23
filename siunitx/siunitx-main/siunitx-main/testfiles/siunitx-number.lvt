@@ -1,0 +1,1226 @@
+\input{regression-test}
+
+\RequirePackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\RequirePackage{siunitx}
+
+\START
+
+\ExplSyntaxOn
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \siunitx_number_format:nN {#1} \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+\TIMO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Basic~formatting:~integers }
+  {
+    \test:n { 1 }
+    \test:n { 123 }
+    \test:n { 123456789 }
+    \test:n { 12345678901234567890 }
+    \test:n { 00001 }
+    \test:n { 00000 }
+  }
+
+\TEST { Basic~formatting:~reals }
+  {
+    \test:n { 1.2 }
+    \test:n { 1234.5678 }
+    \test:n { .1234 }
+    \test:n { 12345. }
+  }
+
+\TEST { Basic~formatting:~exponents }
+  {
+    \test:n { e10 }
+    \test:n { e0 }
+    \test:n { 1e2 }
+    \test:n { 12345e06 }
+    \test:n { 12.34e5 }
+  }
+
+\TEST { Basic~formatting:~signs }
+  {
+    \test:n { +e10 }
+    \test:n { -1 }
+    \test:n { +-10.234 }
+    \test:n { 12.34e-5 }
+  }
+
+\TEST { Basic~formatting:~uncertainties }
+  {
+    \test:n { 123(4) }
+    \test:n { 123.456(7) }
+    \test:n { 123.456(07) }
+    \test:n { 123.456(70) }
+    \test:n { 123.4(56) }
+    \test:n { 123.4(00) }
+    \test:n { 123.45(1.20) }
+    \test:n { 123.45(0.20) }
+    \test:n { 123.45(0.02) }
+    \test:n { 123(0.2) }
+    \test:n { 123.4(0.02) }
+    \test:n { 123 +- 4 }
+    \test:n { 123.456 +- 000.007 }
+    \test:n { 123.456 +- 0.007 }
+    \test:n { 123.456 +- 0.070 }
+    \test:n { 123.4 +- 5.6 }
+    \test:n { 123.4 +- 5.678 }
+    \test:n { 123.4 +- 0.06 }
+    \test:n { 123.4 +- 0.0 }
+  }
+
+\TEST { Basic~formatting:~multiple~uncertainties }
+  {
+    \test:n { 123(4)(5) }
+    \test:n { 123.456(7)(8) }
+    \test:n { 123.456(07)(08) }
+    \test:n { 123.456(70)(80) }
+    \test:n { 123.4(56)(78) }
+    \test:n { 123.4(00)(00) }
+    \test:n { 123.45(1.20)(3.40) }
+    \test:n { 123.45(0.20)(0.30) }
+    \test:n { 123.45(0.02)(0.03) }
+    \test:n { 123(0.2)(0.3) }
+    \test:n { 123.4(0.02)(0.03) }
+    \test:n { 123 +- 4 +- 5 }
+    \test:n { 123.456 +- 000.007 +- 000.008 }
+    \test:n { 123.456 +- 0.007 +- 0.008 }
+    \test:n { 123.456 +- 0.070 +- 0.080 }
+    \test:n { 123.4 +- 5.6 +- 7.8 }
+    \test:n { 123.4 +- 5.678 +- 9.012 }
+    \test:n { 123.4 +- 0.06 +- 0.07 }
+    \test:n { 123.4 +- 0.0 +- 0.0 }
+  }
+
+\TEST { Basic~formatting:~asymmetric~uncertainties }
+  {
+    \OMIT
+    \cs_set_protected:Npn \test:n #1
+      {
+        \exp_args:Nx \siunitx_number_format:nN { \tl_to_str:n {#1} } \l_tmpa_tl
+        \tl_show:N \l_tmpa_tl
+      }
+    \TIMO
+    \test:n { 123(4:5) }
+    \test:n { 123.456(7:8) }
+    \test:n { 123.45(6:7)(8:9) }
+    \test:n { 123.5(0:0) }
+    \test:n { 123.5(1.2:3.4) }
+    \test:n { 123.5(1.22:3.44) }
+  }
+
+\TEST { Basic~formatting:~comparators }
+  {
+    \test:n { > 1.2 }
+    \test:n { \le + 1234.5678 }
+    \test:n { >> 5 }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Parsing~numbers }
+  {
+    \siunitx_number_parse:nN { 123.456 +- 0.070 } \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+
+\TEST { Processing~numbers }
+  {
+    \OMIT
+    \siunitx_number_parse:nN { 123.456 +- 0.070 } \l_tmpa_tl
+    \keys_set:nn { siunitx }
+      { round-mode = uncertainty, round-precision = 1 }
+    \TIMO
+    \siunitx_number_process:NN \l_tmpa_tl \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+
+\OMIT
+\tl_set:Nn \l_tmpa_tl { { } { } { 123 } { 456 } { } { } { 7 } }
+\tl_set:Nn \l_tmpb_tl { { < } { - } { 0 } { 12345 } { { S } { 6 } } { - } { 1 } }
+\TIMO
+
+\TESTEXP { Formatting~parsed~numbers }
+  {
+    \siunitx_number_output:N \l_tmpa_tl \NEWLINE
+    \siunitx_number_output:N \l_tmpb_tl \NEWLINE
+  }
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \siunitx_number_parse:nN {#1} \l_tmpa_tl
+    \tl_set:Nx \l_tmpa_tl
+      { \siunitx_number_output:NN \l_tmpa_tl & }
+    \tl_show:N \l_tmpa_tl
+  }
+\TIMO
+
+\TEST { Formatting~for~tabular~alignment }
+  {
+    \test:n { >10 }
+    \test:n { 123 }
+    \test:n { 123.456 }
+    \test:n { 123.456(789) }
+    \group_begin:
+      \keys_set:nn { siunitx } { input-uncertainty-divider = ; }
+      \test:n { 123.456(7;8) }
+    \group_end:
+    \group_begin:
+      \keys_set:nn { siunitx } { uncertainty-mode = separate }
+      \test:n { 123.456 \pm 0.789 }
+    \group_end:
+    \test:n { 123e10 }
+    \test:n { +1 }
+    \test:n { e11 }
+    \test:n { -e11 }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\OMIT
+\cs_set_protected:Npn \test:n #1
+  {
+    \siunitx_number_format:nN {#1} \l_tmpa_tl
+    \tl_show:N \l_tmpa_tl
+  }
+\TIMO
+
+\TEST { Option~setting~"bracket-ambiguous-numbers" }
+  {
+    \keys_set:nn { siunitx } { uncertainty-mode = separate }
+    \test:n { 1+-2e3 }
+    \test:n { -1+-2e3 }
+    \test:n { >1+-2e3 }
+    \keys_set:nn { siunitx } { bracket-ambiguous-numbers = false }
+    \test:n { 1+-2e3 }
+    \test:n { -1+-2e3 }
+    \test:n { >1+-2e3 }
+  }
+
+\TEST { Option~setting~"bracket-negative-numbers" }
+  {
+    \test:n { -1234 }
+    \test:n { -12.34 }
+    \test:n { -12.34(5) }
+    \keys_set:nn { siunitx } { bracket-negative-numbers = true }
+    \test:n { -1234 }
+    \test:n { -12.34 }
+    \test:n { -12.34(5) }
+  }
+
+\TEST { Option~setting~"digit-group-size" }
+  {
+    \test:n { 123456789.123456789 }
+    \keys_set:nn { siunitx } { digit-group-size = 2 }
+    \test:n { 123456789.123456789 }
+    \keys_set:nn { siunitx } { digit-group-size = 5 }
+    \test:n { 123456789.123456789 }
+  }
+
+\TEST { Option~setting~"digit-group-first-size" }
+  {
+    \test:n { 123456789.123456789 }
+    \keys_set:nn { siunitx } { digit-group-first-size = 2 }
+    \test:n { 123456789.123456789 }
+    \keys_set:nn { siunitx } { digit-group-first-size = 5 }
+    \test:n { 123456789.123456789 }
+  }
+
+\TEST { Option~setting~"digit-group-other-size" }
+  {
+    \test:n { 123456789.123456789 }
+    \keys_set:nn { siunitx } { digit-group-other-size = 2 }
+    \test:n { 123456789.123456789 }
+    \keys_set:nn { siunitx } { digit-group-other-size = 5 }
+    \test:n { 123456789.123456789 }
+  }
+
+\TEST { Option~setting~"drop-exponent" }
+  {
+    \test:n { 1234e3 }
+    \keys_set:nn { siunitx } { drop-exponent = true }
+    \test:n { 1234e3 }
+    \keys_set:nn { siunitx } { exponent-mode = scientific }
+    \test:n { 1234e3 }
+    \keys_set:nn { siunitx } { drop-exponent = false }
+    \test:n { 1234e3 }
+  }
+
+\TEST { Option~setting~"drop-uncertainty" }
+  {
+    \test:n { 1234(45) }
+    \keys_set:nn { siunitx } { drop-uncertainty = true }
+    \test:n { 1234(45) }
+    \keys_set:nn { siunitx } { round-mode = figures, round-precision = 2 }
+    \test:n { 1234(45) }
+    \keys_set:nn { siunitx } { drop-uncertainty = false }
+    \test:n { 1234(45) }
+  }
+
+\TEST { Option~setting~"drop-zero-decimal" }
+  {
+    \test:n { 1234.4500 }
+    \test:n { 1234.00 }
+    \keys_set:nn { siunitx } { drop-zero-decimal = true }
+    \test:n { 1234.4500 }
+    \test:n { 1234.00 }
+    \keys_set:nn { siunitx } { round-mode = figures, round-precision = 2 }
+    \test:n { 1234.001 }
+  }
+
+\TEST { Option~setting~"evaluate-expression" }
+  {
+    \test:n { 1.5 * 1.5 }
+    \keys_set:nn { siunitx } { evaluate-expression = true }
+    \test:n { 1.5 * 1.5 }
+  }
+
+\TEST { Option~setting~"exponent-base" }
+  {
+    \test:n { 1234e5 }
+    \test:n { 1234e-5 }
+    \keys_set:nn { siunitx } { exponent-base = 2 }
+    \test:n { 1234e5 }
+    \test:n { 1234e-5 }
+  }
+
+\TEST { Option~setting~"exponent-mode" }
+  {
+    \OMIT
+      \cs_set_protected:Npn \test:
+        {
+          \test:n { 1 }
+          \test:n { 12 }
+          \test:n { 123 }
+          \test:n { 1234 }
+          \test:n { 12345 }
+          \test:n { 123456 }
+          \test:n { 1234567 }
+          \test:n { 0.1 }
+          \test:n { 0.01 }
+          \test:n { 0.001 }
+          \test:n { 0.0001 }
+          \test:n { 0.00001 }
+          \test:n { 0.12 }
+          \test:n { 1.2 }
+          \test:n { 12.34 }
+          \test:n { 123.456 }
+          \test:n { 12.34e1 }
+          \test:n { 12.34e2 }
+          \test:n { 12.34e3 }
+          \test:n { 1e4 }
+          \test:n { 7(1)e1 }
+          \test:n { 7(1)e2 }
+        }
+    \TIMO
+    \test:
+    \keys_set:nn { siunitx } { exponent-mode = engineering }
+    \test:
+    \keys_set:nn { siunitx } { exponent-mode = fixed }
+    \test:
+    \keys_set:nn { siunitx } { exponent-mode = input }
+    \test:
+    \keys_set:nn { siunitx } { exponent-mode = scientific }
+    \test:
+    \keys_set:nn { siunitx } { exponent-mode = threshold }
+    \test:
+  }
+
+\TEST { Option~setting~"exponent-product" }
+  {
+    \test:n { 1234e5 }
+    \test:n { 1234e-5 }
+    \keys_set:nn { siunitx } { exponent-product = \cdot }
+    \test:n { 1234e5 }
+    \test:n { 1234e-5 }
+  }
+
+\TEST { Option~setting~"exponent-thresholds" }
+  {
+    \keys_set:nn { siunitx } { exponent-mode = threshold }
+    \test:n { 123 }
+    \test:n { 1234 }
+    \test:n { 0.01 }
+    \test:n { 0.001 }
+    \keys_set:nx { siunitx } { exponent-thresholds = -2 \c_colon_str 2 }
+    \test:n { 123 }
+    \test:n { 1234 }
+    \test:n { 0.01 }
+    \test:n { 0.001 }
+  }
+
+\TEST { Option~setting~"expression" }
+  {
+    \OMIT
+    \keys_set:nn { siunitx } { evaluate-expression = true }
+    \TIMO
+    \test:n { 1.5 * 1.5 }
+    \keys_set:nn { siunitx } { expression = 100 * (#1) }
+    \test:n { 1.5 * 1.5 }
+  }
+
+\TEST { Option~setting~"fixed-exponent" }
+  {
+    \keys_set:nn { siunitx } { exponent-mode = fixed }
+    \test:n { 1 }
+    \test:n { 12 }
+    \test:n { 123 }
+    \test:n { 1234 }
+    \test:n { 12345 }
+    \test:n { 123456 }
+    \test:n { 1234567 }
+    \test:n { 0.1 }
+    \test:n { 0.01 }
+    \test:n { 0.001 }
+    \test:n { 0.0001 }
+    \test:n { 0.00001 }
+    \test:n { 1.2 }
+    \test:n { 12.34 }
+    \test:n { 123.456 }
+    \test:n { 12.34e1 }
+    \test:n { 12.34e2 }
+    \test:n { 12.34e3 }
+    \test:n { 12.34e-3 }
+    \test:n { 7(1) }
+    \keys_set:nn { siunitx } { fixed-exponent = 3 }
+    \test:n { 1 }
+    \test:n { 12 }
+    \test:n { 123 }
+    \test:n { 1234 }
+    \test:n { 12345 }
+    \test:n { 123456 }
+    \test:n { 1234567 }
+    \test:n { 0.1 }
+    \test:n { 0.01 }
+    \test:n { 0.001 }
+    \test:n { 0.0001 }
+    \test:n { 0.00001 }
+    \test:n { 1.2 }
+    \test:n { 12.34 }
+    \test:n { 123.456 }
+    \test:n { 12.34e1 }
+    \test:n { 12.34e2 }
+    \test:n { 12.34e3 }
+    \test:n { 12.34e-3 }
+    \test:n { 7(1) }
+    \keys_set:nn { siunitx } { fixed-exponent = -3 }
+    \test:n { 1 }
+    \test:n { 12 }
+    \test:n { 123 }
+    \test:n { 1234 }
+    \test:n { 12345 }
+    \test:n { 123456 }
+    \test:n { 1234567 }
+    \test:n { 0.1 }
+    \test:n { 0.01 }
+    \test:n { 0.001 }
+    \test:n { 0.0001 }
+    \test:n { 0.00001 }
+    \test:n { 1.2 }
+    \test:n { 12.34 }
+    \test:n { 123.456 }
+    \test:n { 12.34e1 }
+    \test:n { 12.34e2 }
+    \test:n { 12.34e3 }
+    \test:n { 12.34e-3 }
+    \test:n { 7(1) }
+  }
+
+\TEST { Option~setting~"group-digits" }
+  {
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1234.567890 }
+    \test:n { 1e12345 }
+    \keys_set:nn { siunitx } { group-digits = integer }
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1234.567890 }
+    \test:n { 1e12345 }
+    \keys_set:nn { siunitx } { group-digits = decimal }
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1234.567890 }
+    \test:n { 1e12345 }
+    \keys_set:nn { siunitx } { group-digits = none }
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1234.567890 }
+    \test:n { 1e12345 }
+  }
+
+\TEST { Option~setting~"group-minimum-digits" }
+  {
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1e1234 }
+    \keys_set:nn { siunitx } { group-minimum-digits = 5 }
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1e1234 }
+  }
+
+\TEST { Option~setting~"group-separator" }
+  {
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1e12345 }
+    \keys_set:nn { siunitx } { group-separator = { , } }
+    \test:n { 1234.5678 }
+    \test:n { 12345.67890 }
+    \test:n { 1e12345 }
+  }
+
+\TEST { Option~setting~"input-close-uncertainty" }
+  {
+    \test:n { 12.34 }
+    \test:n { 12.34(5) }
+    \keys_set:nn { siunitx } { input-close-uncertainty = }
+    \test:n { 12.34 }
+    \test:n { 12.34(5) }
+  }
+
+\TEST { Option~setting~"input-comparators" }
+  {
+    \test:n { 12.34 }
+    \test:n { >12.34 }
+    \keys_set:nn { siunitx } { input-comparators = }
+    \test:n { 12.34 }
+    \test:n { >12.34 }
+  }
+
+\TEST { Option~setting~"input-decimal-markers" }
+  {
+    \test:n { 1234 }
+    \test:n { 12.34 }
+    \keys_set:nn { siunitx } { input-decimal-markers = }
+    \test:n { 1234 }
+    \test:n { 12.34 }
+  }
+
+\TEST { Option~setting~"input-digits" }
+  {
+    \test:n { 1234 }
+    \test:n { 5678 }
+    \keys_set:nn { siunitx } { input-digits = 01234 }
+    \test:n { 1234 }
+    \test:n { 5678 }
+  }
+
+\TEST { Option~setting~"input-exponent-markers" }
+  {
+    \test:n { 1234 }
+    \test:n { 1234e4 }
+    \keys_set:nn { siunitx } { input-exponent-markers = }
+    \test:n { 1234 }
+    \test:n { 1234e4 }
+  }
+
+\TEST { Option~setting~"input-ignore" }
+  {
+    \test:n { 1\,234 }
+    \test:n { +1\,234 }
+    \keys_set:nn { siunitx } { input-ignore = }
+    \test:n { 1\,234 }
+    \test:n { +1\,234 }
+    \test:n { (-3) }
+    \keys_set:nn { siunitx } { input-ignore = ( ) }
+    \test:n { (-3) }
+  }
+
+\TEST { Option~setting~"input-open-uncertainty" }
+  {
+    \test:n { 12.34 }
+    \test:n { 12.34(5) }
+    \keys_set:nn { siunitx } { input-open-uncertainty = }
+    \test:n { 12.34 }
+    \test:n { 12.34(5) }
+  }
+
+\TEST { Option~setting~"input-signs" }
+  {
+    \test:n { 1234 }
+    \test:n { +1234 }
+    \keys_set:nn { siunitx } { input-signs = }
+    \test:n { 1234 }
+    \test:n { +1234 }
+  }
+
+\TEST { Option~setting~"input-uncertainty-signs" }
+  {
+    \test:n { 12.34 }
+    \test:n { 12.34 \pm 5 }
+    \keys_set:nn { siunitx } { input-uncertainty-signs = }
+    \test:n { 12.34 }
+    \test:n { 12.34 \pm 5 }
+  }
+
+\TEST { Option~setting~"input-uncertainty-divider" }
+  {
+    \OMIT
+    \cs_set_protected:Npn \test:n #1
+      {
+        \exp_args:Nx \siunitx_number_format:nN { \tl_to_str:n {#1} } \l_tmpa_tl
+        \tl_show:N \l_tmpa_tl
+      }
+    \TIMO
+    \test:n { 123.4(5:6) }
+    \keys_set:nn { siunitx } { input-uncertainty-divider = }
+    \test:n { 123.4(5:6) }
+  }
+
+\TEST { Option~setting~"minimum-decimal-digits" }
+  {
+    \test:n { 1.234 }
+    \test:n { 12.34 }
+    \test:n { 123.4 }
+    \test:n { 123.4(2) }
+    \test:n { 123.45(2) }
+    \keys_set:nn { siunitx } { minimum-decimal-digits = 2 }
+    \test:n { 1.234 }
+    \test:n { 12.34 }
+    \test:n { 123.4 }
+    \test:n { 123.4(2) }
+    \test:n { 123.45(2) }
+    \keys_set:nn { siunitx } { minimum-decimal-digits = 3 }
+    \test:n { 123.4(2) }
+    \test:n { 123.45(2) }
+  }
+
+\TEST { Option~setting~"minimum-integer-digits" }
+  {
+    \test:n { 1.234 }
+    \test:n { 12.34 }
+    \test:n { 123.4 }
+    \keys_set:nn { siunitx } { minimum-integer-digits = 2 }
+    \test:n { 1.234 }
+    \test:n { 12.34 }
+    \test:n { 123.4 }
+  }
+
+\TEST { Option~setting~"negative-color" }
+  {
+    \test:n { -1234 }
+    \test:n { -12.34 }
+    \test:n { -12.34(5) }
+    \keys_set:nn { siunitx } { negative-color = red }
+    \test:n { -1234 }
+    \test:n { -12.34 }
+    \test:n { -12.34(5) }
+  }
+
+\TEST { Option~setting~"output-close-uncertainty" }
+  {
+    \test:n { 12.34(5) }
+    \keys_set:nn { siunitx } { output-close-uncertainty = }
+    \test:n { 12.34(5) }
+  }
+
+\TEST { Option~setting~"output-decimal-marker" }
+  {
+    \test:n { 12.34 }
+    \keys_set:nn { siunitx } { output-decimal-marker = { , } }
+    \test:n { 12.34 }
+    \keys_set:nn { siunitx } { output-decimal-marker = \ensuremath{\cdot} }
+    \test:n { 12.34 }
+  }
+
+
+\TEST { Option~setting~"output-exponent-marker" }
+  {
+    \test:n { 12.34e3 }
+    \test:n { 12.34e-3 }
+    \keys_set:nn { siunitx } { output-exponent-marker = e }
+    \test:n { 12.34e3 }
+    \test:n { 12.34e-3 }
+    \keys_set:nn { siunitx } { output-exponent-marker = E }
+    \test:n { 12.34e3 }
+    \test:n { 12.34e-3 }
+  }
+
+\TEST { Option~setting~"output-open-uncertainty" }
+  {
+    \test:n { 12.34(5) }
+    \keys_set:nn { siunitx } { output-open-uncertainty = }
+    \test:n { 12.34(5) }
+  }
+
+\TEST { Option~setting~"parse-numbers" }
+  {
+    \test:n { 12.34 }
+    \test:n { \sqrt{2} }
+    \keys_set:nn { siunitx } { parse-numbers = false }
+    \test:n { 12.34 }
+    \test:n { \sqrt{2} }
+  }
+
+\TEST { Option~setting~"print-exponent-implicit-plus" }
+  {
+    \test:n { 1234 }
+    \test:n { 1234e5 }
+    \keys_set:nn { siunitx } { print-exponent-implicit-plus = true }
+    \test:n { 1234 }
+    \test:n { 1234e5 }
+    \group_begin:
+      \keys_set:nn { siunitx } { print-zero-exponent = true }
+      \test:n { e0 }
+    \group_end:
+  }
+
+\TEST { Option~setting~"print-implicit-plus" }
+  {
+    \test:n { 1234 }
+    \test:n { 1234e5 }
+    \keys_set:nn { siunitx } { print-implicit-plus = true }
+    \test:n { 1234 }
+    \test:n { 1234e5 }
+    \group_begin:
+      \keys_set:nn { siunitx } { print-zero-exponent = true }
+      \test:n { e0 }
+    \group_end:
+  }
+
+\TEST { Option~setting~"print-mantissa-implicit-plus" }
+  {
+    \test:n { 1234 }
+    \test:n { 1234e5 }
+    \keys_set:nn { siunitx } { print-mantissa-implicit-plus = true }
+    \test:n { 1234 }
+    \test:n { 1234e5 }
+  }
+
+\TEST { Option~setting~"print-unity-mantissa" }
+  {
+    \test:n { 1e10 }
+    \test:n { 1e0 }
+    \keys_set:nn { siunitx } { print-unity-mantissa = true }
+    \test:n { 1e10 }
+    \test:n { 1e0 }
+    \keys_set:nn { siunitx } { print-unity-mantissa = false }
+    \test:n { 1e10 }
+    \test:n { 1e0 }
+  }
+
+\TEST { Option~setting~"print-zero-exponent" }
+  {
+    \test:n { 1234e0 }
+    \test:n { 1234e-0 }
+    \keys_set:nn { siunitx } { print-zero-exponent = true }
+    \test:n { 1234e0 }
+    \test:n { 1234e-0 }
+  }
+
+\TEST { Option~setting~"print-zero-integer" }
+  {
+    \test:n { 1.234 }
+    \test:n { 0.234 }
+    \keys_set:nn { siunitx } { print-zero-integer = false }
+    \test:n { 1.234 }
+    \test:n { 0.234 }
+  }
+
+\TEST { Option~setting~"retain-explicit-decimal-marker" }
+  {
+    \test:n { 12.0 }
+    \test:n { 12. }
+    \test:n { 10. }
+    \keys_set:nn { siunitx } { retain-explicit-decimal-marker = true }
+    \test:n { 12.0 }
+    \test:n { 12. }
+    \test:n { 10. }
+  }
+
+\TEST { Option~setting~"retain-explicit-plus" }
+  {
+    \test:n { +12.3 }
+    \test:n { 12e+3 }
+    \keys_set:nn { siunitx } { retain-explicit-plus = true }
+    \test:n { +12.3 }
+    \test:n { 12e+3 }
+  }
+
+\TEST { Option~setting~"retain-negative-zero" }
+  {
+    \test:n { -0 }
+    \test:n { -0.00 }
+    \test:n { -0.00(123) }
+    \test:n { -e10 }
+    \keys_set:nn { siunitx } { retain-negative-zero = true }
+    \test:n { -0 }
+    \test:n { -0.00 }
+    \test:n { -0.00(123) }
+    \test:n { -e10 }
+  }
+
+\TEST { Option~setting~"retain-zero-uncertainty" }
+  {
+    \test:n { 12(0) }
+    \test:n { 12 \pm 0 }
+    \keys_set:nn { siunitx } { retain-zero-uncertainty = true }
+    \test:n { 12(0) }
+    \test:n { 12 \pm 0 }
+    \keys_set:nn { siunitx } { uncertainty-mode = separate }
+    \test:n { 12(0) }
+    \test:n { 12 \pm 0 }
+  }
+
+\TEST { Option~setting~"round-direction" }
+  {
+    \keys_set:nn { siunitx } { round-mode = places }
+    \test:n { 12.345 }
+    \test:n { 12.344 }
+    \keys_set:nn { siunitx } { round-direction = up }
+    \test:n { 12.345 }
+    \test:n { 12.344 }
+    \keys_set:nn { siunitx } { round-direction = down }
+    \test:n { 12.345 }
+    \test:n { 12.344 }
+  }
+
+\TEST { Option~setting~"round-half" }
+  {
+    \keys_set:nn { siunitx } { round-mode = places }
+    \test:n { 12.345 }
+    \test:n { 12.3451 }
+    \test:n { 12.355 }
+    \test:n { 12.3551 }
+    \keys_set:nn { siunitx } { round-half = even }
+    \test:n { 12.345 }
+    \test:n { 12.3451 }
+    \test:n { 12.355 }
+    \test:n { 12.3551 }
+  }
+
+\TEST { Option~setting~"round-mode" }
+  {
+    \keys_set:nn { siunitx } { round-precision = 3 }
+    \test:n { 1230 }
+    \test:n { 1250 }
+    \test:n { 123.0 }
+    \test:n { 123.5 }
+    \test:n { 12.30 }
+    \test:n { 12.50 }
+    \test:n { 0.009999 }
+    \test:n { 0.09999 }
+    \test:n { 0.9999 }
+    \test:n { 9.999 }
+    \test:n { 99.99 }
+    \test:n { 999.9 }
+    \test:n { 9999 }
+    \test:n { 1.099 }
+    \test:n { 0 }
+    \test:n { 12345678901234567890.12345678901234567890 }
+    \keys_set:nn { siunitx } { round-mode = figures }
+    \test:n { 1230 }
+    \test:n { 1250 }
+    \test:n { 123.0 }
+    \test:n { 123.5 }
+    \test:n { 12.30 }
+    \test:n { 12.50 }
+    \test:n { 0.009999 }
+    \test:n { 0.09999 }
+    \test:n { 0.9999 }
+    \test:n { 9.999 }
+    \test:n { 99.99 }
+    \test:n { 999.9 }
+    \test:n { 9999 }
+    \test:n { 1.099 }
+    \test:n { 0 }
+    \test:n { 12345678901234567890.12345678901234567890 }
+    \test:n { -0.0001 }
+    \keys_set:nn { siunitx } { round-mode = places }
+    \test:n { 1230 }
+    \test:n { 1250 }
+    \test:n { 123.0 }
+    \test:n { 123.5 }
+    \test:n { 12.30 }
+    \test:n { 12.50 }
+    \test:n { 0 }
+    \test:n { 12345678912345678900.12345678901234567890 }
+    \test:n { -0.0001 }
+    \keys_set:nn { siunitx } { round-precision = 2 }
+    \test:n { 9.999 }
+    \test:n { 99.99 }
+    \test:n { 12.99995 }
+    \keys_set:nn { siunitx } { round-precision = 1 }
+    \test:n { 1234.5 }
+    \keys_set:nn { siunitx } { round-precision = 0 }
+    \test:n { 1234.5 }
+    \keys_set:nn { siunitx } { round-precision = -1 }
+    \test:n { 1234.5 }
+    \keys_set:nn { siunitx } { round-precision = -2 }
+    \test:n { 1234.5 }
+    \keys_set:nn { siunitx } { round-precision = -3 }
+    \test:n { 1234.5 }
+    \keys_set:nn { siunitx } { round-precision = -4 }
+    \test:n { 1234.5 }
+    \keys_set:nn { siunitx } { round-precision = -2 }
+    \test:n { 999.9 }
+    \test:n { 9999 }
+    \keys_set:nn { siunitx } { round-mode = uncertainty }
+    \keys_set:nn { siunitx } { round-precision = 1 }
+    \test:n { 1234.545(2) }
+    \test:n { 1234.545(6) }
+    \test:n { 1234(2) }
+    \test:n { 1234(6) }
+    \test:n { 1234.545(26) }
+    \test:n { 1234.545(62) }
+    \test:n { 1234(26) }
+    \test:n { 1234(62) }
+    \test:n { 123.4 +- 12.3 }
+    \keys_set:nn { siunitx } { round-precision = 3 }
+    \test:n { 1234.545(26) }
+    \test:n { 1234.545(62) }
+    \keys_set:nn { siunitx } { round-precision = 2 }
+    \test:n { 693.1+-11.8 }
+  }
+
+\TEST { Option~setting~"round-minimum" }
+  {
+    \keys_set:nn { siunitx } { round-mode = places }
+    \keys_set:nn { siunitx } { round-precision = 2 }
+    \test:n { 0.019 }
+    \test:n { 0.009 }
+    \test:n { 0.0009 }
+    \test:n { -0.0009 }
+    \test:n { 0.0 }
+    \keys_set:nn { siunitx } { round-minimum = 0.01 }
+    \test:n { 0.019 }
+    \test:n { 0.009 }
+    \test:n { 0.0009 }
+    \test:n { -0.0009 }
+    \test:n { 0.0 }
+  }
+
+\TEST { Option~setting~"round-pad" }
+  {
+    \keys_set:nn { siunitx } { round-mode = figures }
+    \keys_set:nn { siunitx } { round-precision = 4 }
+    \test:n { 12.3 }
+    \test:n { 12.3456 }
+    \keys_set:nn { siunitx } { round-pad = false }
+    \test:n { 12.3 }
+    \test:n { 12.3456 }
+  }
+
+\TEST { Option~setting~"round-precision" }
+  {
+    \keys_set:nn { siunitx } { round-mode = figures }
+    \keys_set:nn { siunitx } { round-precision = 10 }
+    \test:n { 1234.5678 }
+    \test:n { 1234 }
+    \test:n { 0.5678 }
+    \keys_set:nn { siunitx } { round-precision = 8 }
+    \test:n { 1234.5678 }
+    \test:n { 1234 }
+    \test:n { 0.5678 }
+    \keys_set:nn { siunitx } { round-precision = 4 }
+    \test:n { 1234.5678 }
+    \test:n { 1234 }
+    \test:n { 0.5678 }
+    \keys_set:nn { siunitx } { round-precision = 2 }
+    \test:n { 1234.5678 }
+    \test:n { 1234 }
+    \test:n { 0.5678 }
+    \keys_set:nn { siunitx } { round-precision = 1 }
+    \test:n { 1234.5678 }
+    \test:n { 1234 }
+    \test:n { 0.5678 }
+    \keys_set:nn { siunitx } { round-precision = 0 }
+    \test:n { 1234.5678 }
+    \test:n { 1234 }
+    \test:n { 0.5678 }
+  }
+
+\TEST { Option~setting~"round-zero-positive" }
+  {
+    \keys_set:nn { siunitx } { round-mode = places }
+    \test:n { -0.001 }
+    \keys_set:nn { siunitx } { round-zero-positive = true }
+    \test:n { -0.001 }
+  }
+
+\TEST { Option~setting~"tight-spacing" }
+  {
+    \test:n { -1234 }
+    \test:n { -1234e-5 }
+    \test:n { -1234e-5 }
+    \keys_set:nn { siunitx } { tight-spacing = true }
+    \test:n { -1234 }
+    \test:n { -1234e-5 }
+    \test:n { -1234e-5 }
+  }
+
+\TEST { Option~setting~"uncertainty-descriptor-mode" }
+  {
+    \keys_set:nn { siunitx } { uncertainty-descriptors = { sys , stat } }
+    \test:n { 123.45(6)(7)(8) }
+    \keys_set:nn { siunitx } { uncertainty-descriptor-mode = bracket }
+    \test:n { 123.45(6)(7)(8) }
+    \keys_set:nn { siunitx } { uncertainty-descriptor-mode = separator }
+    \test:n { 123.45(6)(7)(8) }
+    \keys_set:nn { siunitx } { uncertainty-descriptor-mode = subscript }
+    \test:n { 123.45(6)(7)(8) }
+  }
+
+\TEST { Option~setting~"uncertainty-descriptor-separator" }
+  {
+    \keys_set:nn { siunitx } { uncertainty-descriptors = { sys , stat } }
+    \test:n { 123.45(6)(7)(8) }
+    \keys_set:nn { siunitx } { uncertainty-descriptor-separator = \, }
+    \test:n { 123.45(6)(7)(8) }
+  }
+
+\TEST { Option~setting~"uncertainty-descriptors" }
+  {
+    \test:n { 123.45 }
+    \test:n { 123.45(6) }
+    \test:n { 123.45(6)(7) }
+    \test:n { 123.45(6)(7)(8) }
+    \keys_set:nn { siunitx } { uncertainty-descriptors = { sys , stat } }
+    \test:n { 123.45 }
+    \test:n { 123.45(6) }
+    \test:n { 123.45(6)(7) }
+    \test:n { 123.45(6)(7)(8) }
+  }
+
+\TEST { Option~setting~"uncertainty-round-direction" }
+  {
+    \keys_set:nn { siunitx } { round-mode = uncertainty , round-precision = 1 }
+    \test:n { 12.345(45) }
+    \keys_set:nn { siunitx } { uncertainty-round-direction = up }
+    \test:n { 12.345(45) }
+    \keys_set:nn { siunitx } { uncertainty-round-direction = down }
+    \test:n { 12.345(45) }
+  }
+
+\TEST { Option~setting~"uncertainty-separator" }
+  {
+    \test:n { 1234(5) }
+    \keys_set:nn { siunitx } { uncertainty-separator = \, }
+    \test:n { 1234(5) }
+  }
+
+\TEST { Option~setting~"uncertainty-mode" }
+  {
+    \test:n { 1234(5) }
+    \test:n { 12.34(5) }
+    \test:n { 12.3456(12345) }
+    \test:n { 12.34567(12345) }
+    \test:n { 1234567(12345) }
+    \test:n { 1234500(11) }
+    \test:n { 1234(5)e6 }
+    \test:n { 123.45(120) }
+    \test:n { 0.035(14) }
+    \keys_set:nn { siunitx } { uncertainty-mode = compact-marker }
+    \test:n { 1234(5) }
+    \test:n { 12.34(5) }
+    \test:n { 12.3456(12345) }
+    \test:n { 12.34567(12345) }
+    \test:n { 1234567(12345) }
+    \test:n { 1234500(11) }
+    \test:n { 1234(5)e6 }
+    \test:n { 123.45(120) }
+    \test:n { 0.035(14) }
+    \keys_set:nn { siunitx } { uncertainty-mode = full }
+    \test:n { 1234(5) }
+    \test:n { 12.34(5) }
+    \test:n { 12.3456(12345) }
+    \test:n { 12.34567(12345) }
+    \test:n { 1234567(12345) }
+    \test:n { 1234500(11) }
+    \test:n { 1234(5)e6 }
+    \test:n { 123.45(120) }
+    \test:n { 0.035(14) }
+    \keys_set:nn { siunitx } { uncertainty-mode = separate }
+    \test:n { 1234(5) }
+    \test:n { 12.34(5) }
+    \test:n { 12.3456(12345) }
+    \test:n { 12.34567(12345) }
+    \test:n { 1234567(12345) }
+    \test:n { 1234500(11) }
+    \test:n { 1234(5)e6 }
+    \test:n { 123.45(120) }
+    \test:n { 0.035(14) }
+  }
+
+\TEST { Option~setting~"zero-decimal-as-symbol" }
+  {
+    \test:n { 1.00 }
+    \keys_set:nn { siunitx } { zero-decimal-as-symbol = true }
+    \test:n { 1.00 }
+  }
+
+\TEST { Option~setting~"zero-symbol" }
+  {
+    \keys_set:nn { siunitx } { zero-decimal-as-symbol = true }
+    \test:n { 1.00 }
+    \keys_set:nn { siunitx } { zero-symbol = \mbox { [ ZERO ] } }
+    \test:n { 1.00 }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Option~settings~"bracket-negative-numbers"~and~"negative-color" }
+  {
+    \test:n { -1234 }
+    \test:n { -12.34 }
+    \test:n { -12.34(5) }
+    \keys_set:nn { siunitx }
+      { bracket-negative-numbers = true , negative-color = red }
+    \test:n { -1234 }
+    \test:n { -12.34 }
+    \test:n { -12.34(5) }
+  }
+
+\TEST { Option~settings~"exponent-mode"~and~"round-mode" }
+  {
+    \keys_set:nn { siunitx } { round-mode = places }
+    \test:n { 99 }
+    \test:n { 999 }
+    \test:n { 9999 }
+    \test:n { 99999 }
+    \keys_set:nn { siunitx } { exponent-mode = scientific }
+    \test:n { 99 }
+    \test:n { 999 }
+    \test:n { 9999 }
+    \test:n { 99999 }
+    \test:n { 999999 }
+    \keys_set:nn { siunitx } { exponent-mode = engineering }
+    \test:n { 99 }
+    \test:n { 999 }
+    \test:n { 9999 }
+    \test:n { 99999 }
+    \test:n { 999999 }
+    \keys_set:nn { siunitx } { round-mode = figures , round-precision = 1  }
+    \keys_set:nn { siunitx } { exponent-mode = scientific }
+    \test:n { 9.99e5 }
+    \keys_set:nn { siunitx } { exponent-mode = engineering }
+    \test:n { 9.99e5 }
+  }
+
+\TEST { Option~settings~"print-unity-mantissa"~and~"print-zero-exponent" }
+  {
+    \test:n { 1e0 }
+    \test:n { e0 }
+    \test:n { 1 }
+    \keys_set:nn { siunitx }
+      { print-unity-mantissa = false , print-zero-exponent = true }
+    \test:n { 1e0 }
+    \test:n { e0 }
+    \test:n { 1 }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Awkward~uncertainty~rounding }
+  {
+    \OMIT
+      \cs_set_protected:Npn \test:
+        {
+          \test:n { 999.9    +- 9.9 }
+          \test:n { 772.4    +- 977.8 }
+          \test:n { 77.24    +- 97.78 }
+          \test:n { 7.724    +- 9.778 }
+          \test:n { 0.7724   +- 0.9778 }
+          \test:n { 0.07724  +- 0.09778 }
+          \test:n { 0.007724 +- 0.009778 }
+          \test:n { 12.3     +- 456.7 }
+        }
+    \TIMO
+    \keys_set:nn { siunitx }
+      { round-mode = uncertainty , round-precision = 1 }
+    \test:
+    \group_begin:
+      \keys_set:nn { siunitx } { exponent-mode = engineering }
+      \test:
+      \keys_set:nn { siunitx } { exponent-mode = scientific }
+      \test:
+    \group_end:
+    \OMIT
+       \cs_set_protected:Npn \test:
+        {
+          \test:n { 1677(9) }
+          \test:n { 1677(90) }
+          \test:n { 1677(900) }
+          \test:n { 1677(9000) }
+        }
+    \TIMO
+    \keys_set:nn { siunitx } { round-precision = 2 }
+    \test:
+    \keys_set:nn { siunitx } { round-precision = 3 }
+    \test:
+    \keys_set:nn { siunitx } { round-precision = 4 }
+    \test:
+    \keys_set:nn { siunitx } { uncertainty-mode = separate }
+    \int_step_inline:nnn { 1 } { 10 }
+      {
+        \keys_set:nn { siunitx } { round-precision = #1 }
+        \test:n { 113.36487738164799 +- 0.31086527039263656 }
+        \test:n { 160.386633950044   +- 0.997745596977107 }
+        \test:n { 70.000000000002    +- 0.995825602415975 }
+      }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Invalid~tokens }
+  {
+    \test:n { 1a }
+    \test:n { 1eH }
+  }
+
+\TEST { Misplaced~tokens }
+  {
+    \test:n { -- }
+    \test:n { 1.2.3 }
+    \test:n { i4i }
+    \test:n { e2-4 }
+    \test:n { 1.23(4 }
+    \test:n { 14.3+i-1.2 }
+    \test:n { 14.3-i-1.2 }
+  }
+
+\TEST { Overlong~uncertainty }
+  {
+    \test:n { 123 +- 4567 }
+  }
+
+\TEST { Mismatched~uncertainties~with~decimal~markers }
+  {
+    \test:n { 123(4.5)(4.78) }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Testing~entire~numbers }
+  {
+    \siunitx_if_number:nTF { 1 }       { \TRUE }  { \ERROR }
+    \siunitx_if_number:nTF { +0.1 }    { \TRUE }  { \ERROR }
+    \siunitx_if_number:nTF { e10 }     { \TRUE }  { \ERROR }
+    \siunitx_if_number:nTF { 1 + ( ) } { \ERROR } { \FALSE }
+    \keys_set:nn { siunitx } { input-uncertainty-divider = ; }
+    \siunitx_if_number:nTF { 1.2(4;5) } { \TRUE } { \ERROR }
+  }
+
+\TESTEXP { Testing~individual~tokens }
+  {
+    \siunitx_if_number_token:NTF 1   { \TRUE }  { \ERROR } \NEWLINE
+    \siunitx_if_number_token:NTF +   { \TRUE }  { \ERROR } \NEWLINE
+    \siunitx_if_number_token:NTF \pm { \TRUE }  { \ERROR } \NEWLINE
+    \siunitx_if_number_token:NTF H   { \ERROR } { \FALSE } \NEWLINE
+  }
+
+\END

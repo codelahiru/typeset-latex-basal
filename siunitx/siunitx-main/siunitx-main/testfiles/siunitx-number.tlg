@@ -1,0 +1,2803 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Basic formatting: integers
+============================================================
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,456\,789.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345\,678\,901\,234\,567\,890.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 2: Basic formatting: reals
+============================================================
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 3: Basic formatting: exponents
+============================================================
+> \l_tmpa_tl=10^{10}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{5}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 4: Basic formatting: signs
+============================================================
+> \l_tmpa_tl=10^{10}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\pm 10.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{-5}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 5: Basic formatting: uncertainties
+============================================================
+> \l_tmpa_tl=123(4).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456(7).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456(7).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456(70).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4(56).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(120).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(20).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.0(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.40(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123(4).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456(7).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456(7).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456(70).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4(56).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.400(5678).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.40(6).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 6: Basic formatting: multiple uncertainties
+============================================================
+> \l_tmpa_tl=123\pm 4\pm 5.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\pm 0.007\pm 0.008.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\pm 0.007\pm 0.008.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\pm 0.070\pm 0.080.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4\pm 5.6\pm 7.8.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 1.20\pm 3.40.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.20\pm 0.30.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.02\pm 0.03.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.0\pm 0.2\pm 0.3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.40\pm 0.02\pm 0.03.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\pm 4\pm 5.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\pm 0.007\pm 0.008.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\pm 0.007\pm 0.008.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\pm 0.070\pm 0.080.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4\pm 5.6\pm 7.8.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.400\pm 5.678\pm 9.012.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.40\pm 0.06\pm 0.07.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 7: Basic formatting: asymmetric uncertainties
+============================================================
+> \l_tmpa_tl=123{}^{+4}_{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456{}^{+0.007}_{-0.008}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45{}^{+0.06}_{-0.07}{}^{+0.08}_{-0.09}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.5.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.5{}^{+1.2}_{-3.4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.50{}^{+1.22}_{-3.44}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 8: Basic formatting: comparators
+============================================================
+> \l_tmpa_tl=\mathord {>}1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {\le }1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {\gg }5.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 9: Parsing numbers
+============================================================
+> \l_tmpa_tl={}{}{123}{456}{{S}{70}}{}{0}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 10: Processing numbers
+============================================================
+> \l_tmpa_tl={}{}{123}{46}{{S}{7}}{}{0}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 11: Formatting parsed numbers
+============================================================
+123.456\times 10^{7}
+\mathord {<}\mathord {-}0.123\,45(6)\times 10^{-1}
+============================================================
+============================================================
+TEST 12: Formatting for tabular alignment
+============================================================
+> \l_tmpa_tl=\mathord {>}&&10&&&&&&&&.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&123&&&&&&&&.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&123&.&456&&&&&&.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&123&.&456(789)&&&&&&.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&123&.&456{}^{+0.007}_{-0.008}&&&&&&.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&123&.&456&\pm &0&.&789&&.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&123&&&&&&&\times &10^{10}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&1&&&&&&&&.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&&&&&&&&&&10^{11}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=&-&&&&&&&&&10^{11}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 13: Option setting "bracket-ambiguous-numbers"
+============================================================
+> \l_tmpa_tl=(1\pm 2)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=(-1\pm 2)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {>}(1\pm 2)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\pm 2\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-1\pm 2\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {>}1\pm 2\times 10^{3}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 14: Option setting "bracket-negative-numbers"
+============================================================
+> \l_tmpa_tl=-1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=(1234).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=(12.34).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=(12.34(5)).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 15: Option setting "digit-group-size"
+============================================================
+> \l_tmpa_tl=123\,456\,789.123\,456\,789.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,23\,45\,67\,89.12\,34\,56\,78\,9.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\,56789.12345\,6789.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 16: Option setting "digit-group-first-size"
+============================================================
+> \l_tmpa_tl=123\,456\,789.123\,456\,789.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567\,89.12\,345\,678\,9.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,56789.12345\,678\,9.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 17: Option setting "digit-group-other-size"
+============================================================
+> \l_tmpa_tl=123\,456\,789.123\,456\,789.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,34\,56\,789.123\,45\,67\,89.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,23456\,789.123\,45678\,9.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 18: Option setting "drop-exponent"
+============================================================
+> \l_tmpa_tl=1234\times 10^{3}.
+<recently read> }
+l. ...  }
+Package siunitx Warning: Potentially ambiguous dropping of exponent.
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{6}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 19: Option setting "drop-uncertainty"
+============================================================
+> \l_tmpa_tl=1234(45).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1200.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(45).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 20: Option setting "drop-zero-decimal"
+============================================================
+> \l_tmpa_tl=1234.4500.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.4500.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1200.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 21: Option setting "evaluate-expression"
+============================================================
+! Package siunitx Error: Invalid number '1.5*1.5'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '1.5*1.5' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=2.25.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 22: Option setting "exponent-base"
+============================================================
+> \l_tmpa_tl=1234\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 2^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 2^{-5}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 23: Option setting "exponent-mode"
+============================================================
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.0001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.345\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\,567\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100\times 10^{-6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10\times 10^{-6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=120\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70(10).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=700(100).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.0001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,340.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10\,000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70(10).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=700(100).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.0001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.23\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2345\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\,56\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\,567\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2\times 10^{-1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\,56\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2345\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\,56\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\,567\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1)\times 10^{2}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 24: Option setting "exponent-product"
+============================================================
+> \l_tmpa_tl=1234\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\cdot 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\cdot 10^{-5}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 25: Option setting "exponent-thresholds"
+============================================================
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.23\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-3}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 26: Option setting "expression"
+============================================================
+> \l_tmpa_tl=2.25.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=225.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 27: Option setting "fixed-exponent"
+============================================================
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.0001.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.2.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,340.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.012\,34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7(1).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.001\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.012\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.123\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.345\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.456\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.567\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.0001\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,01\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,001\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,000\,1\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,000\,01\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.0012\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.012\,34\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.123\,456\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000\,012\,34\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.007(1)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,456\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1200\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,340\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,456\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123\,400\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,340\,000\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=7000(1000)\times 10^{-3}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 28: Option setting "group-digits"
+============================================================
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.678\,90.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.567\,890.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{12\,345}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.67890.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.567890.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{12\,345}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12345.678\,90.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.567\,890.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{12345}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12345.67890.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.567890.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{12345}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 29: Option setting "group-minimum-digits"
+============================================================
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.678\,90.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{1234}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.678\,90.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{1234}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 30: Option setting "group-separator"
+============================================================
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345.678\,90.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{12\,345}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\mathord {,}345.678\mathord {,}90.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{12\mathord {,}345}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 31: Option setting "input-close-uncertainty"
+============================================================
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '12.34(5)'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '12.34(5)' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 32: Option setting "input-comparators"
+============================================================
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {>}12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '>12.34'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '>12.34' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 33: Option setting "input-decimal-markers"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '12.34'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '12.34' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 34: Option setting "input-digits"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '5678'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '5678' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 35: Option setting "input-exponent-markers"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '1234e4'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '1234e4' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 36: Option setting "input-ignore"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '1\protect \,234'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '1\protect \,234' could not be parsed as a number following the
+format defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '+1\protect \,234'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '+1\protect \,234' could not be parsed as a number following the
+format defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '(-3)'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '(-3)' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-3.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 37: Option setting "input-open-uncertainty"
+============================================================
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '12.34(5)'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '12.34(5)' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 38: Option setting "input-signs"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '+1234'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '+1234' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 39: Option setting "input-uncertainty-signs"
+============================================================
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34(500).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '12.34\pm 5'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '12.34\pm 5' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 40: Option setting "input-uncertainty-divider"
+============================================================
+> \l_tmpa_tl=123.4{}^{+0.5}_{-0.6}.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '123.4(5:6)'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '123.4(5:6)' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 41: Option setting "minimum-decimal-digits"
+============================================================
+> \l_tmpa_tl=1.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.40.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.40(20).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.400(200).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.450(20).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 42: Option setting "minimum-integer-digits"
+============================================================
+> \l_tmpa_tl=1.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=01.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.4.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 43: Option setting "negative-color"
+============================================================
+> \l_tmpa_tl=-1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\color {red}-1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\color {red}-12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\color {red}-12.34(5).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 44: Option setting "output-close-uncertainty"
+============================================================
+> \l_tmpa_tl=12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34(5.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 45: Option setting "output-decimal-marker"
+============================================================
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\mathord {,}34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\ensuremath {\cdot }34.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 46: Option setting "output-exponent-marker"
+============================================================
+> \l_tmpa_tl=12.34\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34e3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34e\mathord -3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34E3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34E\mathord -3.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 47: Option setting "output-open-uncertainty"
+============================================================
+> \l_tmpa_tl=12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.345).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 48: Option setting "parse-numbers"
+============================================================
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '\protect \sqrt  {2}'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '\protect \sqrt  {2}' could not be parsed as a number following the
+format defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\ensuremath {12.34}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\ensuremath {\sqrt {2}}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 49: Option setting "print-exponent-implicit-plus"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{+5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10^{0}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 50: Option setting "print-implicit-plus"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=+1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=+1234\times 10^{+5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=+10^{0}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 51: Option setting "print-mantissa-implicit-plus"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=+1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=+1234\times 10^{5}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 52: Option setting "print-unity-mantissa"
+============================================================
+> \l_tmpa_tl=1\times 10^{10}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{10}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10^{10}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 53: Option setting "print-zero-exponent"
+============================================================
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{0}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\times 10^{0}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 54: Option setting "print-zero-integer"
+============================================================
+> \l_tmpa_tl=1.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=.234.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 55: Option setting "retain-explicit-decimal-marker"
+============================================================
+> \l_tmpa_tl=12.0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12..
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10..
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 56: Option setting "retain-explicit-plus"
+============================================================
+> \l_tmpa_tl=12.3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=+12.3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\times 10^{+3}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 57: Option setting "retain-negative-zero"
+============================================================
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.00(123).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-10^{10}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-0.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-0.00(123).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-10^{10}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 58: Option setting "retain-zero-uncertainty"
+============================================================
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12(0).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12(0).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\pm 0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\pm 0.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 59: Option setting "round-direction"
+============================================================
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 60: Option setting "round-half"
+============================================================
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.36.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.36.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.36.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.36.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 61: Option setting "round-mode"
+============================================================
+> \l_tmpa_tl=1230.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1250.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.5.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.30.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.50.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.009\,999.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.099\,99.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.9999.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=9.999.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=99.99.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=999.9.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=9999.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.099.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+> 
+\l_tmpa_tl=12\,345\,678\,901\,234\,567\,890.123\,456\,789\,012\,345\,678\,90.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1230.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1250.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=124.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.5.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.0100.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.100.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10.0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10\,000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.10.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,300\,000\,000\,000\,000\,000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-0.000\,100.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1230.000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1250.000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.500.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.300.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.500.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12\,345\,678\,912\,345\,678\,900.123.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=99.99.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=13.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1235.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1230.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1200.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10\,000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.545(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.545(6).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(2).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(6).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.55(3).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.55(6).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1230(30).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1230(60).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=120(10).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.545(26).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.545(62).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=693(12).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 62: Option setting "round-minimum"
+============================================================
+> \l_tmpa_tl=0.02.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.02.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {<}0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {>}\mathord {-}0.01.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\mathord {<}0.01.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 63: Option setting "round-pad"
+============================================================
+> \l_tmpa_tl=12.30.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 64: Option setting "round-precision"
+============================================================
+> \l_tmpa_tl=1234.567\,800.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.000\,000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.567\,800\,000\,0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.0000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.567\,800\,00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1235.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.5678.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1200.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1200.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.57.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1000.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.6.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 65: Option setting "round-zero-positive"
+============================================================
+> \l_tmpa_tl=0.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.00.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 66: Option setting "tight-spacing"
+============================================================
+> \l_tmpa_tl=-1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-1234\times 10^{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-1234\times 10^{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-1234\mathord {\times }10^{-5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-1234\mathord {\times }10^{-5}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 67: Option setting "uncertainty-descriptor-mode"
+============================================================
+> \l_tmpa_tl=123.45\pm 0.06\ (\mathrm {sys})\pm 0.07\ (\mathrm {stat})\pm
+0.08.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06(\mathrm {sys})\pm 0.07(\mathrm {stat})\pm 0.08.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06\ \mathrm {sys}\pm 0.07\ \mathrm {stat}\pm 0.08.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06_{\mathrm {sys}}\pm 0.07_{\mathrm {stat}}\pm 0.08.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 68: Option setting "uncertainty-descriptor-separator"
+============================================================
+> \l_tmpa_tl=123.45\pm 0.06\ (\mathrm {sys})\pm 0.07\ (\mathrm {stat})\pm
+0.08.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06\,(\mathrm {sys})\pm 0.07\,(\mathrm {stat})\pm
+0.08.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 69: Option setting "uncertainty-descriptors"
+============================================================
+> \l_tmpa_tl=123.45.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(6).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06\pm 0.07.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06\pm 0.07\pm 0.08.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(6).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06\ (\mathrm {sys})\pm 0.07\ (\mathrm {stat}).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 0.06\ (\mathrm {sys})\pm 0.07\ (\mathrm {stat})\pm
+0.08.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 70: Option setting "uncertainty-round-direction"
+============================================================
+> \l_tmpa_tl=12.35(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.35(4).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 71: Option setting "uncertainty-separator"
+============================================================
+> \l_tmpa_tl=1234(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\,(5).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 72: Option setting "uncertainty-mode"
+============================================================
+> \l_tmpa_tl=1234(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.3456(12345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.345\,67(12345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567(12345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,500(11).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(5)\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(120).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.035(14).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.3456(1.2345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.345\,67(12345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567(12345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,500(11).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(5)\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(1.20).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.035(14).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34(0.05).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.3456(1.2345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.345\,67(0.123\,45).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567(12\,345).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,500(11).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234(5)\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45(1.20).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.035(0.014).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1234\pm 5.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.34\pm 0.05.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.3456\pm 1.2345.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=12.345\,67\pm 0.123\,45.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,567\pm 12\,345.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\,234\,500\pm 11.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=(1234\pm 5)\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=123.45\pm 1.20.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.035\pm 0.014.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 73: Option setting "zero-decimal-as-symbol"
+============================================================
+> \l_tmpa_tl=1.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.\mbox {---}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 74: Option setting "zero-symbol"
+============================================================
+> \l_tmpa_tl=1.\mbox {---}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.\mbox {[ZERO]}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 75: Option settings "bracket-negative-numbers" and "negative-color"
+============================================================
+> \l_tmpa_tl=-1234.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-12.34.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=-12.34(5).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\color {red}(1234).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\color {red}(12.34).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=\color {red}(12.34(5)).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 76: Option settings "exponent-mode" and "round-mode"
+============================================================
+> \l_tmpa_tl=99.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=999.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=9999.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=99\,999.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=9.90\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=9.99\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.00\times 10^{4}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.00\times 10^{5}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.00\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=99.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=999.00.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10.00\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100.00\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.00\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{6}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1\times 10^{6}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 77: Option settings "print-unity-mantissa" and "print-zero-exponent"
+============================================================
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10^{0}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10^{0}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10^{0}.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 78: Awkward uncertainty rounding
+============================================================
+> \l_tmpa_tl=1000(10).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1000(1000).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100(100).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10(10).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.1(1).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0.01(1).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0(500).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100(100).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10(10).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=100(100)\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=10(10)\times 10^{-3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0(500).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{3}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{-1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1(1)\times 10^{-2}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=0(50)\times 10^{1}.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(9).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(90).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1680(900).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1700(9000).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(9).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(90).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(900).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1680(9000).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(9).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(90).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(900).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=1677(9000).
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.4\pm 0.3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160\pm 1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70\pm 1.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.36\pm 0.31.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.4\pm 1.0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.0\pm 1.0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.365\pm 0.311.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.387\pm 0.998.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.000\pm 0.996.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.3649\pm 0.3109.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.3866\pm 0.9977.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.0000\pm 0.9958.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.364\,88\pm 0.310\,87.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.386\,63\pm 0.997\,75.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.000\,00\pm 0.995\,83.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.364\,877\pm 0.310\,865.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.386\,634\pm 0.997\,746.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.000\,000\pm 0.995\,826.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.364\,877\,4\pm 0.310\,865\,3.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.386\,634\,0\pm 0.997\,745\,6.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.000\,000\,0\pm 0.995\,825\,6.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.364\,877\,38\pm 0.310\,865\,27.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.386\,633\,95\pm 0.997\,745\,60.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.000\,000\,00\pm 0.995\,825\,60.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.364\,877\,382\pm 0.310\,865\,270.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.386\,633\,950\pm 0.997\,745\,597.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.000\,000\,000\pm 0.995\,825\,602.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=113.364\,877\,381\,6\pm 0.310\,865\,270\,4.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=160.386\,633\,950\,0\pm 0.997\,745\,597\,0.
+<recently read> }
+l. ...  }
+> \l_tmpa_tl=70.000\,000\,000\,0\pm 0.995\,825\,602\,4.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 79: Invalid tokens
+============================================================
+! Package siunitx Error: Invalid number '1a'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '1a' could not be parsed as a number following the format defined in
+module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '1eH'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '1eH' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 80: Misplaced tokens
+============================================================
+! Package siunitx Error: Invalid number '--'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '--' could not be parsed as a number following the format defined in
+module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '1.2.3'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '1.2.3' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number 'i4i'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input 'i4i' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number 'e2-4'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input 'e2-4' could not be parsed as a number following the format defined
+in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '1.23(4'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '1.23(4' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '14.3+i-1.2'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '14.3+i-1.2' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+! Package siunitx Error: Invalid number '14.3-i-1.2'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '14.3-i-1.2' could not be parsed as a number following the format
+defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 81: Overlong uncertainty
+============================================================
+> \l_tmpa_tl=123(4567).
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 82: Mismatched uncertainties with decimal markers
+============================================================
+! Package siunitx Error: Invalid number '123(4.5)(4.78)'.
+For immediate help type H <return>.
+ ...                                              
+l. ...  }
+The input '123(4.5)(4.78)' could not be parsed as a number following the
+format defined in module documentation.
+> \l_tmpa_tl=.
+<recently read> }
+l. ...  }
+============================================================
+============================================================
+TEST 83: Testing entire numbers
+============================================================
+TRUE
+TRUE
+TRUE
+FALSE
+TRUE
+============================================================
+============================================================
+TEST 84: Testing individual tokens
+============================================================
+TRUE
+TRUE
+TRUE
+FALSE
+============================================================

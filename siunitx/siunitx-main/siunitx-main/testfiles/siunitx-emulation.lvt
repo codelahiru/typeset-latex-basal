@@ -1,0 +1,449 @@
+\documentclass{article}
+
+\input{regression-test}
+
+\usepackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\usepackage{siunitx}
+
+\ExplSyntaxOn
+
+\OMIT
+\cs_set_protected:Npn \test #1
+  {
+    \hbox_set:Nn \l_tmpa_box {#1}
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+\ExplSyntaxOff
+
+\OMIT
+% Preamble-only, but rest of tests are document body
+\DeclareSIPrePower\quartic{4}
+\DeclareSIPostPower\tothefourth{4}
+\TIMO
+
+\begin{document}
+
+\OMIT
+
+% Set up math fonts
+\savebox0{$ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\TIMO
+
+\START
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST{Pre- and post-powers}
+  {%
+    \test{\qty{4}{\quartic\metre}}%
+    \test{\qty{4}{\metre\tothefourth}}%
+  }
+
+\TEST{Document commands}
+  {%
+    \test{\si{\metre\per\second}}%
+    \test{\si[per-mode = symbol]{\metre\per\second}}%
+    \test{\SI{2e3}{\metre}}%
+    \test{\SI{40}[\pounds]{\metre}}%
+    \test{\SI[per-mode = symbol]{40}{\metre\per\second}}%
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST{Option "add-arc-degree-zero"}
+  {
+    \test{%
+      \ang[add-arc-degree-zero]{;;1}%
+      \ang[add-arc-degree-zero]{;1;}%
+      \ang[add-arc-degree-zero]{1;;}%
+    }%
+  }
+
+\TEST{Option "add-arc-minute-zero"}
+  {
+    \test{%
+      \ang[add-arc-minute-zero]{;;1}%
+      \ang[add-arc-minute-zero]{;1;}%
+      \ang[add-arc-minute-zero]{1;;}%
+    }%
+  }
+
+\TEST{Option "add-arc-second-zero"}
+  {
+    \test{%
+      \ang[add-arc-second-zero]{;;1}%
+      \ang[add-arc-second-zero]{;1;}%
+      \ang[add-arc-second-zero]{1;;}%
+    }%
+  }
+
+\TEST{Option "arc-separator"}
+  {
+    \test{%
+      \ang{1;2;3}%
+      \ang[arc-separator = \,]{1;2;3}%
+    }%
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST{Option setting "input-protect-tokens"}
+  {\sisetup{input-protect-tokens = \$\"\*}}
+
+\TEST{Option setting "add-decimal-zero"}
+  {%
+    \sisetup{add-decimal-zero = false}%
+    \test{\num{1.}}%
+    \sisetup{add-decimal-zero = true}%
+    \test{\num{1.}}%
+  }
+
+\TEST{Option setting "add-integer-zero"}
+  {%
+    \sisetup{add-integer-zero = false}%
+    \test{\num{.1}}%
+    \sisetup{add-integer-zero = true}%
+    \test{\num{.1}}%
+  }
+
+\TEST { Option~setting~"bracket-numbers" }
+  {
+    \sisetup{separate-uncertainty}%
+    \test{1+-2e3}%
+    \sisetup{bracket-numbers = false}%
+    \test{1+-2e3}%
+  }
+
+\TEST{Options "close-bracket" and "open-bracket"}
+  {%
+    \sisetup{bracket-negative-numbers}%
+    \sisetup{close-bracket = \}, open-bracket = \{}
+    \test{\num{-123}}%
+  }
+
+\TEST{Option setting "explicit-sign"}
+  {%
+    \begingroup
+      \sisetup{explicit-sign = +}%
+      \test{\num{10}}%
+    \endgroup
+    \sisetup{explicit-sign = -}%
+    \test{\num{10}}%
+  }
+
+\TEST{Option setting "group-digits"}
+  {%
+    \test{\num{123456.789000}}%
+    \sisetup{group-digits = false}%
+    \test{\num{123456.789000}}%
+    \sisetup{group-digits = true}%
+    \test{\num{123456.789000}}%
+  }
+
+\TEST{Option setting "group-four-digits"}
+  {%
+    \test{\num{1234.7890}}%
+    \sisetup{group-four-digits = false}%
+    \test{\num{1234.7890}}%
+    \sisetup{group-four-digits = true}%
+    \test{\num{1234.7890}}%
+  }
+
+\TEST{Option setting "input-symbols"}
+  {%
+    \test{\num{4\pi e-7}}%
+    \sisetup{input-symbols = \pi}%
+    \test{\num{4\pi e-7}}%
+  }
+
+\TEST{Option setting "omit-uncertainty"}
+  {%
+    \sisetup{omit-uncertainty = true}%
+    \test{\num{10(1)}}%
+    \sisetup{omit-uncertainty = false}%
+    \test{\num{10(1)}}%
+  }
+
+\TEST{Option setting "output-product"}
+  {\sisetup{output-product = \cdot}}
+
+\TEST{Option setting "retain-unity-mantissa"}
+  {%
+    \sisetup{retain-unity-mantissa = true}%
+    \test{\num{1e10}}%
+    \sisetup{retain-unity-mantissa = false}%
+    \test{\num{1e10}}%
+  }
+
+\TEST{Option setting "retain-zero-exponent"}
+  {%
+    \sisetup{retain-zero-exponent = true}%
+    \test{\num{1e0}}%
+    \sisetup{retain-zero-exponent = false}%
+    \test{\num{1e0}}%
+  }
+
+\TEST{Option setting "round-integer-to-decimal"}
+  {%
+    \sisetup{round-integer-to-decimal = true}%
+    \test{\num{1}}%
+  }
+
+\TEST{Option setting "separate-uncertainty"}
+  {%
+    \test{\num{1234(5)}}%
+    \sisetup{separate-uncertainty = true}%
+    \test{\num{1234(5)}}%
+  }
+
+\TEST{Option setting "scientific-notation"}
+  {%
+    \sisetup{scientific-notation = engineering}%
+    \test{\num{1e4}}%
+    \sisetup{scientific-notation = fixed}%
+    \test{\num{1000}}%
+    \sisetup{scientific-notation = false}%
+    \test{\num{1e4}}%
+    \sisetup{scientific-notation = true}%
+    \test{\num{1000}}%
+  }
+
+\TEST{Option setting "zero-decimal-to-integer"}
+  {%
+    \sisetup{zero-decimal-to-integer = true}%
+    \test{\num{1.}}%
+    \sisetup{zero-decimal-to-integer = false}%
+    \test{\num{1.}}%
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST{Option setting "detect-all"}
+  {%
+    \sisetup{detect-all}%
+    \bfseries\ttfamily\itshape
+    \test{\SI{10}{\metre}}%
+  }
+
+\TEST{Option setting "detect-family"}
+  {%
+    \sisetup{detect-family}%
+    \bfseries\ttfamily\itshape
+    \test{\SI{10}{\metre}}%
+  }
+
+\TEST{Option setting "detect-mode"}
+  {%
+    \sisetup{detect-mode}%
+    \bfseries\ttfamily\itshape
+    \test{\SI{10}{\metre}}%
+  }
+
+\TEST{Option setting "detect-none"}
+  {%
+    \sisetup{detect-mode}%
+    \bfseries\ttfamily\itshape
+    \test{\SI{10}{\metre}}%
+  }
+
+\TEST{Option setting "detect-shape"}
+  {%
+    \sisetup{detect-mode}%
+    \bfseries\ttfamily\itshape
+    \test{\SI{10}{\metre}}%
+  }
+
+\TEST{Option setting "detect-weight"}
+  {%
+    \sisetup{detect-mode}%
+    \bfseries\ttfamily\itshape
+    \test{\SI{10}{\metre}}%
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST{Option setting "allow-number-unit-breaks"}
+  {%
+    \sisetup{allow-number-unit-breaks = false}%
+    \test{\SI{10}{\metre}}%
+    \sisetup{allow-number-unit-breaks = true}%
+    \test{\SI{10}{\metre}}%
+  }
+
+\TEST{Option setting "prefixes-as-symbols"}
+  {%
+    \sisetup{exponent-to-prefix = false}%
+    \test{\SI{10e3}{\metre}}%
+    \sisetup{exponent-to-prefix = true}%
+    \test{\SI{10e3}{\metre}}%
+  }
+
+\TEST{Option setting "literal-superscript-as-power"}
+  {%
+    \sisetup{literal-superscript-as-power}%
+    \test{\SI{10}{m^2}}%
+  }
+
+\TEST{Option setting "number-unit-product"}
+  {%
+    \sisetup{number-unit-product = \:}%
+    \test{\SI{10}{\kilo\metre}}%
+  }
+
+\TEST{Option setting "number-unit-separator"}
+  {%
+    \sisetup{number-unit-separator = \:}%
+    \test{\SI{10}{\kilo\metre}}%
+  }
+
+\TEST{Option setting "per-mode"}
+  {%
+    \sisetup{per-mode = reciprocal}%
+    \test{\SI{10}{\kilo\metre\per\hour}}%
+    \sisetup{per-mode = reciprocal-positive-first}%
+    \test{\SI{10}{\per\mole\per\kelvin\joule}}%
+  }
+
+\TEST{Option setting "power-font"}
+  {%
+    \sisetup{power-font}%
+    \test{\SI{10}{\kilo\metre\squared}}%
+  }
+
+\TEST{Option setting "qualifier-mode"}
+  {%
+    \sisetup{qualifier-mode = brackets}%
+    \test{\SI{10}{\kilo\metre\of{road}}}%
+    \sisetup{qualifier-mode = space}%
+    \test{\SI{10}{\kilo\metre\of{road}}}%
+    \sisetup{qualifier-mode = text}%
+    \test{\SI{10}{\kilo\metre\of{road}}}%
+  }
+
+\TEST{Option setting "fraction-function"}
+  {%
+    \sisetup{fraction-function = \frac, per-mode = fraction}%
+    \test{\SI{10}{\joule\per\mole\per\kelvin}}%
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST{Option "table-align-text-post"}
+  {
+    \test{%
+      \sisetup{table-format = 2.2{a}}
+      \begin{tabular}{SS[table-align-text-post = false]}
+        1.2a   & 1.2a   \\
+        12.34b & 12.34b \\
+      \end{tabular}
+    }%
+  }
+
+\TEST{Option "table-align-text-pre"}
+  {
+    \test{%
+      \sisetup{table-format = {a}2.2}
+      \begin{tabular}{SS[table-align-text-pre = false]}
+        a1.2   & a1.2   \\
+        b12.34 & b12.34 \\
+      \end{tabular}
+    }%
+  }
+
+\TEST{Option "table-number-alignment"}
+  {
+    \test{%
+      \begin{tabular}{SS[table-number-alignment = center-decimal-marker]}
+        1.2345 & 1.2345 \\
+        1234.5 & 1234.5 \\
+      \end{tabular}
+    }%
+  }
+
+\TEST{Option "table-omit-exponent"}
+  {
+    \test{%
+      \sisetup{table-format = 2.2e1}
+      \begin{tabular}{S[table-omit-exponent = true]S[table-omit-exponent = false]}
+        12.34e5 & 12.34e5 \\
+      \end{tabular}
+    }%
+  }
+
+\TEST{Option "table-parse-only"}
+  {
+    \test{%
+      \sisetup{table-format = 2.2e1}
+      \begin{tabular}{SS[table-parse-only]}
+        12.34e5 & 12.34e5 \\
+        1.2 & 1.2 \\
+      \end{tabular}
+    }%
+  }
+
+\TEST{Options for table-format components}
+  {
+    \OMIT
+    \newcommand{\testa}[2]
+      {%
+        \test{%
+          \begin{tabular}{@{}c@{}S@{}c@{}S[#1, table-alignment-mode = format]@{}c@{}}
+              M & #2 & M & #2 & M \\
+          \end{tabular}\par
+        }%
+      }
+    \sisetup{table-format = 2.2}
+    \TIMO
+    \testa{table-comparator = >}{>22.22}%
+    \testa{table-figures-decimal = 3}{12.345}%
+    \testa{table-figures-exponent = 2}{1e23}%
+    \testa{table-figures-integer = 3}{123.45}%
+    \testa{table-figures-uncertainty = 1}{12.23(4)}%
+    \begingroup
+      \sisetup{table-format = 2e1}
+      \testa{table-sign-exponent = +}{12e-3}%
+    \endgroup
+    \testa{table-sign-mantissa = +}{-12.34}%
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST{Celsius commands}
+  {
+    \test{\unit{\celsius}}%
+  }
+
+\ExplSyntaxOn
+\cs_set_eq:NN \clistmap \clist_map_inline:nn
+\ExplSyntaxOff
+
+
+\TEST{Removed units}
+  {
+    \clistmap
+      {%
+        \angstrom         ,
+        \atomicmassunit   ,
+        \barn             ,
+        \bohr             ,
+        \clight           ,
+        \electronmass     ,
+        \elementarycharge ,
+        \hartree          ,
+        \knot             ,
+        \mmHg             ,
+        \nauticalmile     ,
+        \planckbar
+      }%
+      {\test{\unit{#1}}}%
+  }
+
+\END

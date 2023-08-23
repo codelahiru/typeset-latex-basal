@@ -1,0 +1,58 @@
+\input{regression-test}
+
+\RequirePackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\documentclass{article}
+
+\usepackage{siunitx}
+
+\usepackage{sansmath}
+
+\begin{document}
+
+% Set up math fonts
+\savebox0{$ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\START
+
+\ExplSyntaxOn
+
+\OMIT
+\cs_set_protected:Npn \test:nn #1#2
+  {
+    \cs_set_eq:Nc \test:n { siunitx_print_ #1 :n }
+    \hbox_set:Nn \l_tmpa_box { \test:n {#2} }
+    \box_show:N \l_tmpa_box
+    \hbox_set:Nn \l_tmpa_box { $ \test:n {#2} $ }
+    \box_show:N \l_tmpa_box
+    \group_begin:
+      \keys_set:nn { siunitx } { mode = text }
+      \hbox_set:Nn \l_tmpa_box { \test:n {#2} }
+      \box_show:N \l_tmpa_box
+      \hbox_set:Nn \l_tmpa_box { $ \test:n {#2} $ }
+      \box_show:N \l_tmpa_box
+    \group_end:
+  }
+\TIMO
+
+\TEST { Option~setting~"reset-math-version" }
+  {
+    \sansmath
+    \test:nn { unit } { \mathrm{kg} }
+    \keys_set:nn { siunitx } { reset-math-version = false }
+    \test:nn { unit } { \mathrm{kg} }
+  }
+
+\TEST { Option~setting~"text-series-to-math" }
+  {
+    \sansmath
+    \test:nn { unit } { \mathrm{kg} }
+    \keys_set:nn { siunitx } { text-series-to-math = true }
+    \test:nn { unit } { \mathrm{kg} }
+  }
+
+\end{document}

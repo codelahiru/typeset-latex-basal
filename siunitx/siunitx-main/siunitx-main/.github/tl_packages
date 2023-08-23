@@ -1,0 +1,72 @@
+# The test framework itself
+l3build
+#
+# Required to build formats
+latex-bin
+tex
+xetex
+#
+# Assuming a 'basic' font set up, metafont is required to avoid
+# warnings with some packages and errors with others
+metafont
+mfware
+# Dependencies for siunitx
+amsmath
+graphics
+tools
+# Dependencies for tests and typesetting
+alphalph
+babel-catalan
+babel-english
+babel-french
+babel-italian
+babel-german
+babel-portuges
+babel-polish
+babel-spanish
+beamer
+bidi
+booktabs
+cancel
+caption
+carlisle
+cellspace
+cjk-ko
+collcell
+colortbl
+csquotes
+datatool
+dvips
+ec
+enumitem
+epstopdf-pkg
+fancyvrb
+fixmath
+fourier
+hologo
+hypdoc
+koma-script
+libertine
+listings
+lualatex-math
+luatexbase
+luatexko
+makeindex
+mathpazo
+multirow
+natbib
+opensans
+pgfplots
+psnfss
+realscripts
+revtex
+sansmath
+soulpos
+textcase
+threeparttable
+translations
+underscore
+unicode-math
+xetexko
+xtab
+zref

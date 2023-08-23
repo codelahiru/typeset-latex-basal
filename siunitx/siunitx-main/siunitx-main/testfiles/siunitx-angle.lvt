@@ -1,0 +1,192 @@
+\input{regression-test}
+
+\RequirePackage[enable-debug,check-declarations]{expl3}
+
+\ExplSyntaxOn
+\debug_on:n { deprecation }
+\ExplSyntaxOff
+
+\RequirePackage{siunitx}
+
+\begin{document}
+
+\START
+
+\ExplSyntaxOn
+
+\OMIT
+
+% Set up math fonts
+\hbox_set:Nn \l_tmpa_box { $ \mathrm { a } \mathsf { b } \mathtt{ c } \mathbf { d } $ }
+
+\cs_set_protected:Npn \test:n #1
+  {
+    \hbox_set:Nn \l_tmpa_box
+      { \siunitx_angle:n {#1} }
+    \box_show:N \l_tmpa_box
+  }
+\cs_set_protected:Npn \test:nnn #1#2#3
+  {
+    \hbox_set:Nn \l_tmpa_box
+      { \siunitx_angle:nnn {#1} {#2} {#3} }
+    \box_show:N \l_tmpa_box
+  }
+\TIMO
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Basic~formatting:~decimals }
+  {
+    \test:n { 1 }
+    \test:n { 0.123 }
+    \test:n { 1.23 }
+    \test:n { 1 }
+    \test:n { .2 }
+  }
+
+\TEST { Basic~formatting:~angles }
+  {
+    \test:nnn { 1 } { } { }
+    \test:nnn { 1 } { 2 } { }
+    \test:nnn { 1 } { 2 } { 3 }
+    \test:nnn { 1 } { } { 3 }
+    \test:nnn { } { 2 } { }
+    \test:nnn { } { 2 } { 3 }
+    \test:nnn { } { } { 3 }
+    \test:nnn { } { } { 0.234 }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Option~setting~"angle-mode" }
+  {
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+    \keys_set:nn { siunitx } { angle-mode = arc }
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+    \keys_set:nn { siunitx } { angle-mode = decimal }
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+    \keys_set:nn { siunitx } { angle-mode = input }
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+  }
+
+\TEST { Option~setting~"angle-symbol-..." }
+  {
+    \test:nnn { 6 } { 7 } { 6.5 }
+    \keys_set:nn { siunitx }
+      {
+        angle-symbol-degree = D ,
+        angle-symbol-minute = M ,
+        angle-symbol-second = S
+      }
+    \test:nnn { 6 } { 7 } { 6.5 }
+  }
+
+\TEST { Option~setting~"angle-symbol-over-decimal" }
+  {
+    \test:n { 45.697 }
+    \test:nnn { 6 } { 7 } { 6.5 }
+    \keys_set:nn { siunitx } { angle-symbol-over-decimal = true }
+    \test:n { 45.697 }
+    \test:nnn { 6 } { 7 } { 6.5 }
+  }
+
+\TEST { Option~setting~"angle-separator" }
+  {
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+    \keys_set:nn { siunitx } { angle-separator = \, }
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+  }
+
+\TEST { Option~setting~"fill-angle-degrees" }
+  {
+    \test:nnn { } { } { 1 }
+    \test:nnn { } { 1 } { }
+    \test:nnn { 1 } { } { }
+    \test:nnn { } { } { -1 }
+    \test:nnn { } { -1 } { }
+    \test:nnn { -1 } { } { }
+    \keys_set:nn { siunitx } { fill-angle-degrees = true }
+    \test:nnn { } { } { 1 }
+    \test:nnn { } { 1 } { }
+    \test:nnn { 1 } { } { }
+    \test:nnn { } { } { -1 }
+    \test:nnn { } { -1 } { }
+    \test:nnn { -1 } { } { }
+  }
+
+\TEST { Option~setting~"fill-angle-minutes" }
+  {
+    \test:nnn { } { } { 1 }
+    \test:nnn { } { 1 } { }
+    \test:nnn { 1 } { } { }
+    \test:nnn { } { } { -1 }
+    \test:nnn { } { -1 } { }
+    \test:nnn { -1 } { } { }
+    \keys_set:nn { siunitx } { fill-angle-minutes = true }
+    \test:nnn { } { } { 1 }
+    \test:nnn { } { 1 } { }
+    \test:nnn { 1 } { } { }
+    \test:nnn { } { } { -1 }
+    \test:nnn { } { -1 } { }
+    \test:nnn { -1 } { } { }
+  }
+
+\TEST { Option~setting~"fill-angle-seconds" }
+  {
+    \test:nnn { } { } { 1 }
+    \test:nnn { } { 1 } { }
+    \test:nnn { 1 } { } { }
+    \test:nnn { } { } { -1 }
+    \test:nnn { } { -1 } { }
+    \test:nnn { -1 } { } { }
+    \keys_set:nn { siunitx } { fill-angle-seconds = true }
+    \test:nnn { } { } { 1 }
+    \test:nnn { } { 1 } { }
+    \test:nnn { 1 } { } { }
+    \test:nnn { } { } { -1 }
+    \test:nnn { } { -1 } { }
+    \test:nnn { -1 } { } { }
+  }
+
+\TEST { Option~setting~"number-angle-product" }
+  {
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+    \keys_set:nn { siunitx } { number-angle-product = \, }
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Option~setting~"parse-numbers~=~false" }
+  {
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+    \keys_set:nn { siunitx } { parse-numbers = false }
+    \test:n { 1.23 }
+    \test:nnn { 1 } { 2 } { 3 }
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\TEST { Number~options }
+  {
+    \test:n { 22/7 }
+    \keys_set:nn { siunitx } 
+      {
+        evaluate-expression       ,
+        round-mode      = figures ,
+        round-precision = 3       ,
+        round-pad       =false
+      }
+    \test:n { 22/7 }
+  }
+
+\END

@@ -1,0 +1,78 @@
+\input{regression-test}
+
+\documentclass{article}
+
+\ifdefined\Umathcode\else
+  \expandafter\endinput
+\fi
+
+\usepackage{fontspec}
+\setmainfont{OpenSans-Regular.ttf}[
+   LetterSpace = 2,
+   FontFace = {lt}{n}{OpenSans-Light.ttf},
+   FontFace = {sb}{n}{OpenSans-SemiBold.ttf},
+   FontFace = {bf}{n}{OpenSans-Bold.ttf},
+   FontFace = {bx}{n}{OpenSans-Bold.ttf},
+   FontFace = {xb}{n}{OpenSans-ExtraBold.ttf},
+   FontFace = {lt}{it}{OpenSans-LightItalic.ttf},
+   FontFace = {md}{it}{OpenSans-Italic.ttf},
+   FontFace = {sb}{it}{OpenSans-SemiBoldItalic.ttf},
+   FontFace = {bf}{it}{OpenSans-BoldItalic.ttf},
+   FontFace = {bx}{it}{OpenSans-BoldItalic.ttf},
+   FontFace = {xb}{it}{OpenSans-ExtraBoldItalic.ttf},
+]
+\DeclareRobustCommand\ltseries{\fontseries{lt}\selectfont}
+\DeclareTextFontCommand{\textlt}{\ltseries}
+\DeclareRobustCommand\sbseries{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textsb}{\sbseries}
+\DeclareRobustCommand\xbseries{\fontseries{xb}\selectfont}
+\DeclareTextFontCommand{\textxb}{\xbseries}
+
+\usepackage{siunitx}
+
+\sisetup
+  {
+   reset-text-family = false,
+   reset-text-series = false,
+   reset-text-shape  = false,
+   text-family-to-math = true,
+   text-series-to-math = true,
+   mode = match
+  }
+
+\begin{document}
+
+\START
+
+\textlt{Light: \qty{1.234e-5}{\micro\farad}}
+
+Normal: \qty{1.234e-5}{\micro\farad}
+
+\textsb{Semibold: \qty{1.234e-5}{\micro\farad}}
+
+\textbf{Bold: \qty{1.234e-5}{\micro\farad}}
+
+\textxb{Extrabold: \qty{1.234e-5}{\micro\farad}}
+
+
+\bigskip
+Same for italic shapes:
+
+\itshape
+\textlt{Light Italic: \qty{1.234e-5}{\micro\farad}}
+
+Normal Italic: \qty{1.234e-5}{\micro\farad}
+
+\textsb{Semibold Italic: \qty{1.234e-5}{\micro\farad}}
+
+\textbf{Bold Italic: \qty{1.234e-5}{\micro\farad}}
+
+\textxb{Extrabold Italic: \qty{1.234e-5}{\micro\farad}}
+
+\showoutput
+
+\newpage
+
+\OMIT
+
+\end{document}

@@ -1,0 +1,6226 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+============================================================
+TEST 1: Lists and products of numbers
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x10.00003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.83333)x55.0022, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x83.33437, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x71.38889, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x116.39105, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x259.52867, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 9
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 9
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: Ranges of numbers
+============================================================
+> \box...=
+\hbox(6.44444+0.11)x25.55003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x78.96663, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: Lists and products of quantities
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x30.00018, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.83333)x95.0025, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x143.33482, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x91.38904, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x156.39136, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x319.52913, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 9
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 9
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: Ranges of quantities
+============================================================
+> \box...=
+\hbox(6.44444+0.11)x45.55019, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x98.96678, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 5: Missing values
+============================================================
+> \box...=
+\hbox(0.0+0.0)x0.0, direction TLT
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x30.00018, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x30.00018, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.83333)x95.0025, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.83333)x95.0025, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 4
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 4
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 6: Option settings "list-final-separator", "list-pair-separator" and "list-separator"
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.11)x32.78003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x43.89005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.11)x32.78003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83+1.93)x43.06004, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 N
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.16+0.22)x34.45003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 P
+.\kern-0.83 (font)
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 I
+.\TU/lmr/m/n/10 R
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83+1.93)x43.06004, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 N
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.16+0.22)x34.45003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 P
+.\kern-0.83 (font)
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 I
+.\TU/lmr/m/n/10 R
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x56.13004, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 P
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 N
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 7: Option settings "compound-final-separator", "compound-pair-separator" and "compound-separator"
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.11)x32.78003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x43.89005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.11)x32.78003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83+1.93)x43.06004, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 N
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.16+0.22)x34.45003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 P
+.\kern-0.83 (font)
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 I
+.\TU/lmr/m/n/10 R
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83+1.93)x43.06004, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 N
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.16+0.22)x34.45003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 P
+.\kern-0.83 (font)
+.\TU/lmr/m/n/10 A
+.\TU/lmr/m/n/10 I
+.\TU/lmr/m/n/10 R
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x56.13004, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 S
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 P
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\TU/lmr/m/n/10 E
+.\TU/lmr/m/n/10 N
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 8: Option setting "compound-exponents"
+============================================================
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x124.01494, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x124.01494, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x70.59834, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x83.37616, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x78.37614, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x91.15396, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 9: Option settings "compound-open-boundary" and"compound-close-boundary"
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.11)x32.78003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x43.89005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.16+0.11)x47.78003, direction TLT
+.\hbox(7.16+0.0)x7.5, direction TLT
+..\TU/lmr/m/n/10 A
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\hbox(7.16+0.0)x7.5, direction TLT
+..\TU/lmr/m/n/10 A
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.16+1.93)x61.67004, direction TLT
+.\hbox(7.16+0.0)x7.5, direction TLT
+..\TU/lmr/m/n/10 A
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\hbox(6.83+0.22)x10.28, direction TLT
+..\TU/lmr/m/n/10 W
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 10: Option setting "list-exponents"
+============================================================
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x124.01494, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x124.01494, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x70.59834, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x83.37616, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x78.37614, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x91.15396, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 11: Option setting "product-exponents"
+============================================================
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x119.56921, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x119.56921, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x66.15262, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x78.93044, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x31.70831, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x73.93042, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x86.70824, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 12: Option setting "product-mode"
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x22.22217, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x39.44432, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.05)x27.22003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+2.05)x10.56, direction TLT
+..\TU/lmr/m/n/10 b
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 y
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.05)x49.44005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+2.05)x10.56, direction TLT
+..\TU/lmr/m/n/10 b
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 y
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+2.05)x10.56, direction TLT
+..\TU/lmr/m/n/10 b
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 y
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 13: Option setting "product-symbol"
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x22.22217, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x39.44432, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83331+0.0)x19.06946, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\OML/cmm/m/it/10 X
+.\kern0.7847 (italic)
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83331+0.0)x33.1389, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\OML/cmm/m/it/10 X
+.\kern0.7847 (italic)
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\OML/cmm/m/it/10 X
+.\kern0.7847 (italic)
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 14: Option setting "product-phrase"
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.05)x27.22003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+2.05)x10.56, direction TLT
+..\TU/lmr/m/n/10 b
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 y
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+2.05)x49.44005, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+2.05)x10.56, direction TLT
+..\TU/lmr/m/n/10 b
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 y
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+2.05)x10.56, direction TLT
+..\TU/lmr/m/n/10 b
+..\kern-0.28 (font)
+..\TU/lmr/m/n/10 y
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x5.00002, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x39.31003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 P
+.\TU/lmr/m/n/10 R
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 O
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.22)x73.62004, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 P
+.\TU/lmr/m/n/10 R
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 O
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\TU/lmr/m/n/10 P
+.\TU/lmr/m/n/10 R
+.\kern-0.28 (font)
+.\TU/lmr/m/n/10 O
+.\TU/lmr/m/n/10 D
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 15: Option setting "range-exponents"
+============================================================
+> \box...=
+\hbox(8.14003+0.83333)x78.96663, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x78.96663, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x78.96663, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x52.25833, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x57.25835, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x60.03613, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x60.03613, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x65.03615, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x67.81393, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 16: Option settings "range-open phrase" and "range-phrase"
+============================================================
+> \box...=
+\hbox(6.44444+0.11)x25.55003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.0)x15.00003, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 –
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.05+0.11)x72.83003, direction TLT
+.\hbox(7.05+0.11)x20.31, direction TLT
+..\TU/lmr/m/n/10 f
+..\TU/lmr/m/n/10 r
+..\TU/lmr/m/n/10 o
+..\TU/lmr/m/n/10 m
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\hbox(7.05+0.11)x20.31, direction TLT
+..\TU/lmr/m/n/10 f
+..\TU/lmr/m/n/10 r
+..\TU/lmr/m/n/10 o
+..\TU/lmr/m/n/10 m
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 17: Option setting "compound-units"
+============================================================
+> \box...=
+\hbox(6.94+1.93)x73.89027, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x154.01517, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x61.66792, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x141.79282, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x66.15405, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x146.27895, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x58.37625, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x138.50114, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x73.89027, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x154.01517, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x53.89012, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x134.01501, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 18: Option setting "list-units"
+============================================================
+> \box...=
+\hbox(6.94+1.93)x73.89027, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x154.01517, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x61.66792, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x141.79282, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x73.89027, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x154.01517, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x53.89012, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x134.01501, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 19: Option setting "product-units"
+============================================================
+> \box...=
+\hbox(6.44444+0.83333)x69.44455, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x149.56944, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x57.2222, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x137.34709, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x61.70833, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x141.83322, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x53.93053, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x134.05542, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x69.44455, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x149.56944, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.83333)x49.4444, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x129.56929, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 20: Option setting "range-units"
+============================================================
+> \box...=
+\hbox(6.44444+0.11)x45.55019, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x98.96678, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x43.32791, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x96.7445, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.11)x45.55019, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x98.96678, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.44444+0.11)x35.55011, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x88.9667, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 21: Option settings "compound-close bracket" and "compound-open-bracket"
+============================================================
+> \box...=
+\hbox(7.5+2.5)x61.66792, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x59.4457, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 [
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 ]
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 22: Option settings "list-close bracket" and "list-open-bracket"
+============================================================
+> \box...=
+\hbox(7.5+2.5)x61.66792, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x59.4457, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 [
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 ]
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 23: Option settings "product-close bracket" and "product-open-bracket"
+============================================================
+> \box...=
+\hbox(7.5+2.5)x57.2222, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x54.99997, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 [
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 ]
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 24: Option settings "range-close bracket" and "range-open-bracket"
+============================================================
+> \box...=
+\hbox(7.5+2.5)x43.32791, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x41.10568, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 [
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 ]
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 25: Option settings "parse-numbers = false"
+============================================================
+> \box...=
+\hbox(6.44444+0.0)x15.00009, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+0.11)x52.78018, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x73.89027, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 26: Option settings "prefix-mode" and "compound-units"
+============================================================
+> \box...=
+\hbox(6.94444+1.93)x90.55699, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x67.2235, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+2.5)x71.70963, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -4.47224, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.98335+1.93)x63.93182, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -4.47224, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.93)x90.55699, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.93)x59.4457, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x13.88893, direction TLT
+..\OT1/cmr/m/n/10 h
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x116.15408, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 5
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x123.93188, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 5
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x199.07083, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x191.29303, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+..\OT1/cmr/m/n/7 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 3
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x136.15424, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 5
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+1.93)x116.15408, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 5
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 27: Option setting "uncertainty-mode = separate"
+============================================================
+> \box...=
+\hbox(7.5+2.5)x93.89142, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 5
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 4
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 7
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 8
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x147.30801, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 5
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 4
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 7
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 8
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x133.8913, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 5
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 4
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^F
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 7
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 8
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^F
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 )
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+2.5)x187.30789, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 5
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 4
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^F
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 3
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 (
+.\OT1/cmr/m/n/10 7
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 8
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^F
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 0
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 )
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x4.48613, shifted -3.62892, direction TLT
+..\OT1/cmr/m/n/7 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 28: Option settings "mode" and "output-decimal-marker"
+============================================================
+> \box...=
+\hbox(6.66+1.93)x27.77672, direction TLT
+.\hbox(6.66+1.93)x17.78, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 ,
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+.\kern1.66672
+.\penalty 10000
+.\hbox(4.42+0.0)x8.33, direction TLT
+..\TU/lmr/m/n/10 m
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x78.33344, direction TLT
+.\hbox(6.66+1.93)x17.78, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 ,
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+.\kern1.66672
+.\penalty 10000
+.\hbox(4.42+0.0)x8.33, direction TLT
+..\TU/lmr/m/n/10 m
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.77+1.93)x17.78, direction TLT
+..\TU/lmr/m/n/10 4
+..\TU/lmr/m/n/10 ,
+..\TU/lmr/m/n/10 5
+..\TU/lmr/m/n/10 6
+.\kern1.66672
+.\penalty 10000
+.\hbox(4.42+0.0)x8.33, direction TLT
+..\TU/lmr/m/n/10 m
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94+1.93)x112.22015, direction TLT
+.\hbox(6.66+1.93)x17.78, direction TLT
+..\TU/lmr/m/n/10 1
+..\TU/lmr/m/n/10 ,
+..\TU/lmr/m/n/10 2
+..\TU/lmr/m/n/10 3
+.\kern1.66672
+.\penalty 10000
+.\hbox(4.42+0.0)x8.33, direction TLT
+..\TU/lmr/m/n/10 m
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\hbox(6.77+1.93)x17.78, direction TLT
+..\TU/lmr/m/n/10 4
+..\TU/lmr/m/n/10 ,
+..\TU/lmr/m/n/10 5
+..\TU/lmr/m/n/10 6
+.\kern1.66672
+.\penalty 10000
+.\hbox(4.42+0.0)x8.33, direction TLT
+..\TU/lmr/m/n/10 m
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.76+1.93)x17.78, direction TLT
+..\TU/lmr/m/n/10 7
+..\TU/lmr/m/n/10 ,
+..\TU/lmr/m/n/10 8
+..\TU/lmr/m/n/10 9
+.\kern1.66672
+.\penalty 10000
+.\hbox(4.42+0.0)x8.33, direction TLT
+..\TU/lmr/m/n/10 m
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 29: Option settings "range-units = single" and "per-mode=symbol"
+============================================================
+> \box...=
+\hbox(7.5+2.5)x37.77788, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OML/cmm/m/it/10 =
+.\hbox(4.30554+0.0)x12.7778, direction TLT
+..\OT1/cmr/m/n/10 c
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x98.33575, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 9
+.\OT1/cmr/m/n/10 8
+.\OT1/cmr/m/n/10 6
+.\mathoff
+.\mathon
+.\OML/cmm/m/it/10 =
+.\hbox(4.30554+0.0)x12.7778, direction TLT
+..\OT1/cmr/m/n/10 c
+..\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OML/cmm/m/it/10 =
+.\hbox(4.30554+0.0)x12.7778, direction TLT
+..\OT1/cmr/m/n/10 c
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.5+2.5)x142.22363, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 8
+.\OT1/cmr/m/n/10 8
+.\OT1/cmr/m/n/10 5
+.\mathoff
+.\mathon
+.\OML/cmm/m/it/10 =
+.\hbox(4.30554+0.0)x12.7778, direction TLT
+..\OT1/cmr/m/n/10 c
+..\OT1/cmr/m/n/10 m
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 9
+.\OT1/cmr/m/n/10 8
+.\OT1/cmr/m/n/10 6
+.\mathoff
+.\mathon
+.\OML/cmm/m/it/10 =
+.\hbox(4.30554+0.0)x12.7778, direction TLT
+..\OT1/cmr/m/n/10 c
+..\OT1/cmr/m/n/10 m
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\mathon
+.\OML/cmm/m/it/10 =
+.\hbox(4.30554+0.0)x12.7778, direction TLT
+..\OT1/cmr/m/n/10 c
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 30: Option settings "compound-independent-prefix = true" and "prefix-mode = combine-exponent"
+============================================================
+> \box...=
+\hbox(6.94444+1.93)x148.89037, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.93)x107.01529, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.83331+0.0)x21.11115, direction TLT
+..\OT1/cmr/m/n/10 M
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.83331+0.0)x19.79169, direction TLT
+..\OT1/cmr/m/n/10 G
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 31: Option settings "list-independent-prefix = true" and "prefix-mode = combine-exponent"
+============================================================
+> \box...=
+\hbox(6.94444+1.93)x148.89037, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+1.93)x107.01529, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\TU/lmr/m/n/10 ,
+.\glue(\spaceskip) 3.33 plus 2.08124 minus 0.888
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.83331+0.0)x21.11115, direction TLT
+..\OT1/cmr/m/n/10 M
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.94+0.11)x16.12, direction TLT
+..\TU/lmr/m/n/10 a
+..\TU/lmr/m/n/10 n
+..\TU/lmr/m/n/10 d
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.83331+0.0)x19.79169, direction TLT
+..\OT1/cmr/m/n/10 G
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 32: Option settings "product-independent-prefix = true" and "prefix-mode = combine-exponent"
+============================================================
+> \box...=
+\hbox(6.94444+0.83333)x144.44464, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\mathon
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\mathoff
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\glue 1.66663
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+0.83333)x93.6809, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\OMS/cmsy/m/n/10 ^^B
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.83331+0.0)x21.11115, direction TLT
+..\OT1/cmr/m/n/10 M
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\OMS/cmsy/m/n/10 ^^B
+.\mathon
+.\OT1/cmr/m/n/10 3
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.83331+0.0)x19.79169, direction TLT
+..\OT1/cmr/m/n/10 G
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 33: Option settings "range-independent-prefix = true" and "prefix-mode = combine-exponent"
+============================================================
+> \box...=
+\hbox(6.94444+0.11)x78.32803, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\OT1/cmr/m/n/10 0
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.94444+0.11)x67.21687, direction TLT
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.94444+0.0)x17.22226, direction TLT
+..\OT1/cmr/m/n/10 k
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\hbox(6.15+0.11)x8.89, direction TLT
+..\TU/lmr/m/n/10 t
+..\TU/lmr/m/n/10 o
+.\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+.\mathon
+.\OT1/cmr/m/n/10 2
+.\mathoff
+.\kern1.66672
+.\penalty 10000
+.\mathon
+.\hbox(6.83331+0.0)x21.11115, direction TLT
+..\OT1/cmr/m/n/10 M
+..\OT1/cmr/m/n/10 H
+..\OT1/cmr/m/n/10 z
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================

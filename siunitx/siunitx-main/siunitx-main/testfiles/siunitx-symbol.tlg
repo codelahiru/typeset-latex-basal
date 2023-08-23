@@ -1,0 +1,688 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(siunitx-symbol-tests.tex
+============================================================
+TEST 1: Typesetting degree
+============================================================
+> \box...=
+\hbox(6.88586+0.0)x4.59723
+.\mathon
+.\hbox(6.88586+0.0)x4.59723
+..\hbox(0.0+0.0)x0.0
+..\hbox(3.25694+0.0)x4.59723, shifted -3.62892
+...\OMS/cmsy/m/n/7 ^^N
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.88586+0.0)x4.59723
+.\mathon
+.\hbox(6.88586+0.0)x4.59723
+..\hbox(0.0+0.0)x0.0
+..\hbox(3.25694+0.0)x4.59723, shifted -3.62892
+...\OMS/cmsy/m/n/7 ^^N
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x3.33252
+.\hbox(6.8872+0.0)x3.33252
+..\hbox(6.8872+0.0)x3.33252
+...\TS1/cmr/m/n/10 °
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x3.33252
+.\mathon
+.\hbox(6.8872+0.0)x3.33252
+..\hbox(6.8872+0.0)x3.33252
+...\hbox(6.8872+0.0)x3.33252
+....\TS1/cmr/m/n/10 °
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x3.33252
+.\mathon
+.\hbox(6.8872+0.0)x3.33252
+..\hbox(6.8872+0.0)x3.33252
+...\TS1/cmr/m/n/10 °
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.88586+0.0)x4.59723
+.\mathon
+.\hbox(0.0+0.0)x0.0
+.\hbox(3.25694+0.0)x4.59723, shifted -3.62892
+..\OMS/cmsy/m/n/7 ^^N
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x3.33252
+.\hbox(6.8872+0.0)x3.33252
+..\hbox(6.8872+0.0)x3.33252
+...\TS1/cmr/m/n/10 °
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Extra }, or forgotten $.
+<argument> ...f@size \sf@size \selectfont \circ }}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Extra }, or forgotten $.
+<argument> ...f@size \sf@size \selectfont \circ }}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Extra }, or forgotten $.
+<argument> ...f@size \sf@size \selectfont \circ }}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Extra }, or forgotten $.
+<argument> ...f@size \sf@size \selectfont \circ }}
+l. ...  }
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing } inserted.
+<inserted text> 
+                }
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+> \box...=
+\hbox(6.88586+0.0)x4.59723
+.\mathon
+.\hbox(6.88586+0.0)x4.59723
+..\hbox(6.88586+0.0)x4.59723
+...\mathon
+...\hbox(3.25694+0.0)x4.59723, shifted -3.62892
+....\mathon
+....\OMS/cmsy/m/n/7 ^^N
+....\mathoff
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 2: Typesetting ohm
+============================================================
+> \box...=
+\hbox(6.83331+0.0)x7.22223
+.\mathon
+.\OT1/cmr/m/n/10 
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83331+0.0)x7.22223
+.\mathon
+.\OT1/cmr/m/n/10 
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x7.22046
+.\hbox(6.8872+0.0)x7.22046
+..\hbox(6.8872+0.0)x7.22046
+...\TS1/cmr/m/n/10 W
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x7.22046
+.\mathon
+.\hbox(6.8872+0.0)x7.22046
+..\hbox(6.8872+0.0)x7.22046
+...\hbox(6.8872+0.0)x7.22046
+....\TS1/cmr/m/n/10 W
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x7.22046
+.\mathon
+.\hbox(6.8872+0.0)x7.22046
+..\hbox(6.8872+0.0)x7.22046
+...\TS1/cmr/m/n/10 W
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.83331+0.0)x7.22223
+.\mathon
+.\OT1/cmr/m/n/10 
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(6.8872+0.0)x7.22046
+.\hbox(6.8872+0.0)x7.22046
+..\hbox(6.8872+0.0)x7.22046
+...\TS1/cmr/m/n/10 W
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+! Missing $ inserted.
+<inserted text> 
+                $
+l. ...  }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+> \box...=
+\hbox(6.83331+0.0)x7.22223
+.\mathon
+.\hbox(6.83331+0.0)x7.22223
+..\hbox(6.83331+0.0)x7.22223
+...\mathon
+...\OT1/cmr/m/n/10 
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 3: Typesetting micro
+============================================================
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\mathon
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x5.5542
+...\hbox(4.37393+1.94397)x5.5542
+....\TS1/cmr/m/n/10 µ
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\mathon
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x5.5542
+...\hbox(4.37393+1.94397)x5.5542
+....\TS1/cmr/m/n/10 µ
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x5.5542
+...\TS1/cmr/m/n/10 µ
+..\OT1/cmr/m/n/10 m
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\mathon
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x13.88756
+...\hbox(4.37393+1.94397)x5.5542
+....\TS1/cmr/m/n/10 µ
+...\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\mathon
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x5.5542
+...\hbox(4.37393+1.94397)x5.5542
+....\TS1/cmr/m/n/10 µ
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\mathon
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x5.5542
+...\hbox(4.37393+1.94397)x5.5542
+....\TS1/cmr/m/n/10 µ
+..\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x5.5542
+...\TS1/cmr/m/n/10 µ
+..\OT1/cmr/m/n/10 m
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(4.37393+1.94397)x13.88756
+.\mathon
+.\hbox(4.37393+1.94397)x13.88756
+..\hbox(4.37393+1.94397)x13.88756
+...\hbox(4.37393+1.94397)x5.5542
+....\TS1/cmr/m/n/10 µ
+...\OT1/cmr/m/n/10 m
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+============================================================
+TEST 4: Typesetting times
+============================================================
+> \box...=
+\hbox(8.14003+0.83333)x48.47226
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892
+..\OT1/cmr/m/n/7 4
+..\OT1/cmr/m/n/7 5
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83333)x48.47226
+.\mathon
+.\OT1/cmr/m/n/10 1
+.\OML/cmm/m/it/10 :
+.\OT1/cmr/m/n/10 2
+.\OT1/cmr/m/n/10 3
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OMS/cmsy/m/n/10 ^^B
+.\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+.\OT1/cmr/m/n/10 1
+.\OT1/cmr/m/n/10 0
+.\hbox(4.51111+0.0)x8.47226, shifted -3.62892
+..\OT1/cmr/m/n/7 4
+..\OT1/cmr/m/n/7 5
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83313)x48.46997
+.\hbox(8.14003+0.83313)x48.46997
+..\OT1/cmr/m/n/10 1
+..\OT1/cmr/m/n/10 .
+..\OT1/cmr/m/n/10 2
+..\OT1/cmr/m/n/10 3
+..\kern 2.22198
+..\TS1/cmr/m/n/10 Ö
+..\kern 2.22198
+..\OT1/cmr/m/n/10 1
+..\OT1/cmr/m/n/10 0
+..\mathon
+..\hbox(4.51111+0.0)x8.47226, shifted -3.62892
+...\OT1/cmr/m/n/7 4
+...\OT1/cmr/m/n/7 5
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(8.14003+0.83313)x48.46997
+.\mathon
+.\hbox(8.14003+0.83313)x48.46997
+..\hbox(8.14003+0.83313)x48.46997
+...\OT1/cmr/m/n/10 1
+...\OT1/cmr/m/n/10 .
+...\OT1/cmr/m/n/10 2
+...\OT1/cmr/m/n/10 3
+...\kern 2.22198
+...\TS1/cmr/m/n/10 Ö
+...\kern 2.22198
+...\OT1/cmr/m/n/10 1
+...\OT1/cmr/m/n/10 0
+...\mathon
+...\hbox(4.51111+0.0)x8.47226, shifted -3.62892
+....\OT1/cmr/m/n/7 4
+....\OT1/cmr/m/n/7 5
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line ....
+> \box...=
+\hbox(7.9067+0.0)x49.35214
+.\hbox(7.9067+0.0)x49.35214
+..\OT1/cmtt/m/n/10 1
+..\OT1/cmtt/m/n/10 .
+..\OT1/cmtt/m/n/10 2
+..\OT1/cmtt/m/n/10 3
+..\kern 2.33305
+..\TS1/cmtt/m/n/10 Ö
+..\kern 2.33305
+..\OT1/cmtt/m/n/10 1
+..\OT1/cmtt/m/n/10 0
+..\mathon
+..\hbox(4.27777+0.0)x7.93759, shifted -3.62892
+...\OT1/cmtt/m/n/7 4
+...\OT1/cmtt/m/n/7 5
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.9067+0.83333)x49.18729
+.\mathon
+.\hbox(7.9067+0.83333)x49.18729
+..\OT1/cmtt/m/n/10 1
+..\OML/cmm/m/it/10 :
+..\OT1/cmtt/m/n/10 2
+..\OT1/cmtt/m/n/10 3
+..\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+..\OMS/cmsy/m/n/10 ^^B
+..\glue(\medmuskip) 2.22217 plus 1.11108 minus 2.22217
+..\OT1/cmtt/m/n/10 1
+..\OT1/cmtt/m/n/10 0
+..\hbox(4.27777+0.0)x7.93759, shifted -3.62892
+...\OT1/cmtt/m/n/7 4
+...\OT1/cmtt/m/n/7 5
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.9067+0.0)x49.35214
+.\hbox(7.9067+0.0)x49.35214
+..\OT1/cmtt/m/n/10 1
+..\OT1/cmtt/m/n/10 .
+..\OT1/cmtt/m/n/10 2
+..\OT1/cmtt/m/n/10 3
+..\kern 2.33305
+..\TS1/cmtt/m/n/10 Ö
+..\kern 2.33305
+..\OT1/cmtt/m/n/10 1
+..\OT1/cmtt/m/n/10 0
+..\mathon
+..\hbox(4.27777+0.0)x7.93759, shifted -3.62892
+...\OT1/cmtt/m/n/7 4
+...\OT1/cmtt/m/n/7 5
+..\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+> \box...=
+\hbox(7.9067+0.0)x49.35214
+.\mathon
+.\hbox(7.9067+0.0)x49.35214
+..\hbox(7.9067+0.0)x49.35214
+...\OT1/cmtt/m/n/10 1
+...\OT1/cmtt/m/n/10 .
+...\OT1/cmtt/m/n/10 2
+...\OT1/cmtt/m/n/10 3
+...\kern 2.33305
+...\TS1/cmtt/m/n/10 Ö
+...\kern 2.33305
+...\OT1/cmtt/m/n/10 1
+...\OT1/cmtt/m/n/10 0
+...\mathon
+...\hbox(4.27777+0.0)x7.93759, shifted -3.62892
+....\OT1/cmtt/m/n/7 4
+....\OT1/cmtt/m/n/7 5
+...\mathoff
+.\mathoff
+! OK.
+<argument> \l_tmpa_box 
+l. ...  }
+============================================================
+) (siunitx-symbol.aux)
